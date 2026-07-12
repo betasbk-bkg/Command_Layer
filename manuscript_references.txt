@@ -1,0 +1,39 @@
+Manuscript reference list
+
+Extracted from ieee_access_manuscript_final_submission.docx.
+
+[1] B. P. Gerkey and M. J. Mataric, "A formal analysis and taxonomy of task allocation in multi-robot systems," Int. J. Robot. Res., vol. 23, no. 9, pp. 939-954, Sep. 2004, doi: 10.1177/0278364904045564.
+
+[2] M. Brambilla, E. Ferrante, M. Birattari, and M. Dorigo, "Swarm robotics: A review from the swarm engineering perspective," Swarm Intell., vol. 7, no. 1, pp. 1-41, 2013, doi: 10.1007/s11721-012-0075-2.
+
+[3] L. E. Parker, D. Rus, and G. S. Sukhatme, "Multiple mobile robot systems," in Springer Handbook of Robotics, B. Siciliano and O. Khatib, Eds. Berlin, Germany: Springer, 2008, pp. 921-941.
+
+[4] R. Vaughan, "Massively multi-robot simulation in stage," Swarm Intell., vol. 2, no. 2-4, pp. 189-208, 2008, doi: 10.1007/s11721-008-0014-4.
+
+[5] R. Olfati-Saber, J. A. Fax, and R. M. Murray, "Consensus and cooperation in networked multi-agent systems," Proc. IEEE, vol. 95, no. 1, pp. 215-233, Jan. 2007, doi: 10.1109/JPROC.2006.887293.
+
+[6] J. P. Hespanha, P. Naghshtabrizi, and Y. Xu, "A survey of recent results in networked control systems," Proc. IEEE, vol. 95, no. 1, pp. 138-162, Jan. 2007, doi: 10.1109/JPROC.2006.887288.
+
+[7] M. A. Goodrich, B. S. Pendleton, P. Sujit, and J. Pinto, "Human-swarm interaction: A survey," IEEE Trans. Human-Mach. Syst., vol. 43, no. 3, pp. 289-302, May 2013.
+
+[8] A. Kolling, P. Walker, N. Chakraborty, K. Sycara, and M. Lewis, "Human interaction with robot swarms: A survey," IEEE Trans. Human-Mach. Syst., vol. 46, no. 1, pp. 9-26, Feb. 2016, doi: 10.1109/THMS.2015.2480801.
+
+[9] S. Thrun, W. Burgard, and D. Fox, Probabilistic Robotics. Cambridge, MA, USA: MIT Press, 2005.
+
+[10] O. Khatib, "Real-time obstacle avoidance for manipulators and mobile robots," Int. J. Robot. Res., vol. 5, no. 1, pp. 90-98, 1986, doi: 10.1177/027836498600500106.
+
+[11] B. Yamauchi, "A frontier-based approach for autonomous exploration," in Proc. IEEE Int. Symp. Comput. Intell. Robot. Autom., Monterey, CA, USA, 1997, pp. 146-151, doi: 10.1109/CIRA.1997.613851.
+
+[12] J. van den Berg, S. J. Guy, M. Lin, and D. Manocha, "Reciprocal n-body collision avoidance," in Robotics Research, vol. 70. Berlin, Germany: Springer, 2011, pp. 3-19, doi: 10.1007/978-3-642-19457-3_1.
+
+[13] N. Koenig and A. Howard, "Design and use paradigms for Gazebo, an open-source multi-robot simulator," in Proc. IEEE/RSJ Int. Conf. Intell. Robots Syst., Sendai, Japan, 2004, pp. 2149-2154, doi: 10.1109/IROS.2004.1389727.
+
+[14] O. Michel, "Webots: Professional mobile robot simulation," Int. J. Adv. Robot. Syst., vol. 1, no. 1, pp. 39-42, 2004, doi: 10.5772/5618.
+
+[15] M. Quigley et al., "ROS: An open-source robot operating system," in Proc. ICRA Workshop Open Source Software, Kobe, Japan, 2009.
+
+[16] M. Dorigo, M. Birattari, and M. Brambilla, "Swarm robotics," Scholarpedia, vol. 9, no. 1, Art. no. 1463, 2014, doi: 10.4249/scholarpedia.1463.
+
+[17] A. Howard, M. J. Mataric, and G. S. Sukhatme, "Mobile sensor network deployment using potential fields: A distributed, scalable solution to the area coverage problem," in Distributed Autonomous Robotic Systems 5. Tokyo, Japan: Springer, 2002, pp. 299-308, doi: 10.1007/978-4-431-65941-9_30.
+
+[18] Cyberbotics Ltd., Webots R2025a. Lausanne, Switzerland: Cyberbotics Ltd., 2025. [Online]. Available: https://cyberbotics.com

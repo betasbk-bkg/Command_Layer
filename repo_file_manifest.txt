@@ -1,0 +1,25 @@
+﻿Visible manifest for the nested public repository package
+
+The file command_layer_relay_tradeoff_public_repo_v1.zip contains the public reproducibility repository. Archived release: Zenodo v1.1.0, https://doi.org/10.5281/zenodo.21311023.
+
+Its top-level contents are:
+
+- CITATION.cff
+- MANIFEST.sha256
+- README.md
+- REPRODUCE.md
+- repository_metadata.json
+- requirements.txt
+- data/
+- figures/
+- reports/
+- scripts/
+- src/
+- webots_validation/
+
+The repository zip contains saved CSV outputs, source scripts, Webots validation files, six figure PNGs, and a claim-level reproducibility checker.
+
+Quick check after extraction:
+
+python scripts/reproducibility_check.py --root .
+

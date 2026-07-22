@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the associated manuscript and this archived research package."
+title: "Command-Layer Resilience and Relay Over-Allocation Trade-Offs in Heterogeneous Multi-Robot Teams Under Delayed Hazard Information"
+authors:
+  - family-names: "Song"
+    given-names: "BongKeun"
+affiliation: "Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU), Erlangen, Germany"
+version: "1.4.0"
+doi: "10.5281/zenodo.21310895"
+url: "https://doi.org/10.5281/zenodo.21310895"
+date-released: "2026-07-22"
+abstract: "Research package for a physics-supported simulation study of command-layer resilience and relay over-allocation trade-offs in heterogeneous multi-robot teams under delayed hazard information."
+keywords:
+  - "heterogeneous multi-robot systems"
+  - "relay allocation"
+  - "delayed information"
+  - "Webots"
+  - "swarm robotics"
+  - "robot simulation"
+repository-artifact: "Command_Layer_repo_v1.4.0.zip"
+preferred-citation:
+  type: article
+  title: "Command-Layer Resilience and Relay Over-Allocation Trade-Offs in Heterogeneous Multi-Robot Teams Under Delayed Hazard Information"
+  authors:
+    - family-names: "Song"
+      given-names: "BongKeun"
+  journal: "IEEE Access"
+  year: 2026
+  notes: "Manuscript under submission; final IEEE Access bibliographic details pending."

@@ -1,0 +1,78 @@
+{
+  "protocol": "S1_smoke_diagnostics",
+  "created_utc": "2026-08-09T07:34:36.278399+00:00",
+  "n_runs": 320,
+  "summary_rows": 8,
+  "pairing_missing_vs_reinstrumented_baseline": 0,
+  "lambda2_degenerate_steps_total": 0,
+  "lambda2_low_population_steps_total": 0,
+  "lambda2_ctrl_n_steps_min": 53,
+  "lambda2_ctrl_n_steps_mean": 57.515625,
+  "eigengap_min": 0.003756911829000842,
+  "eigengap_p01_mean": 0.14054837124606617,
+  "diagnostic_mean_comparisons": {
+    "lambda2_ctrl_mean": {
+      "mean_s1": 8.997883246201667,
+      "mean_baseline": 8.994928586024539,
+      "mean_diff_s1_minus_baseline": 0.0029546601771286486
+    },
+    "lambda2_per_alive_mean": {
+      "mean_s1": 0.7714215911681868,
+      "mean_baseline": 0.7713218816976191,
+      "mean_diff_s1_minus_baseline": 9.970947056768126e-05
+    },
+    "fragmentation_mean": {
+      "mean_s1": 1.893939393939394e-05,
+      "mean_baseline": 1.893939393939375e-05,
+      "mean_diff_s1_minus_baseline": 1.8973538018496328e-19
+    },
+    "safe_delivery_success": {
+      "mean_s1": 0.390625,
+      "mean_baseline": 0.3875,
+      "mean_diff_s1_minus_baseline": 0.003125
+    },
+    "attrition_rate": {
+      "mean_s1": 0.05598958333333333,
+      "mean_baseline": 0.05624999999999998,
+      "mean_diff_s1_minus_baseline": -0.0002604166666666506
+    },
+    "mean_effective_map_delay": {
+      "mean_s1": 10.923804644661542,
+      "mean_baseline": 10.924698266598437,
+      "mean_diff_s1_minus_baseline": -0.0008936219368955694
+    },
+    "operational_score": {
+      "mean_s1": 71.83766928367469,
+      "mean_baseline": 71.91591371289785,
+      "mean_diff_s1_minus_baseline": -0.07824442922315762
+    }
+  },
+  "validity": {
+    "n_runs": 320,
+    "n_conditions": 8,
+    "no_nan": 1,
+    "success_in_bounds": 1,
+    "attrition_in_bounds": 1,
+    "exposure_nonnegative": 1,
+    "binary_success_unique_values": 2,
+    "strict_success_rate": 0.99375,
+    "strict_success_nontrivial": 0,
+    "safe_delivery_rate": 0.390625,
+    "safe_delivery_nontrivial": 1,
+    "operational_score_mean": 71.83766928367469,
+    "operational_score_std": 6.160476131759015,
+    "degraded_outcome_rate": 0.628125,
+    "degraded_label_nontrivial": 1,
+    "mission_profile_values": "full_delivery",
+    "success_consistent_with_reach_threshold": 1,
+    "clean_delay_lower_than_severe": 1.0,
+    "perfect_map_mse_lower_than_no_shared": 0.0,
+    "relay_rich_delay_lower_than_homogeneous": 0.0,
+    "severe_success_not_higher_than_clean": 1.0,
+    "severe_degraded_not_lower_than_clean": 1.0
+  },
+  "source_sha256": {
+    "src/swarm_pilot_experiment.py": "9BFB9F578E861EA51CD9D7D6CE4938B63A29AFAAED5E27017071195557C3316E",
+    "scripts/lambda2_utils.py": "A537951531909E5495057261737C3D227225F64492B65B50C4457A6BC0ECDB5F"
+  }
+}

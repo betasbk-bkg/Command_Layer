@@ -1,0 +1,33 @@
+{
+  "statistic": "R = g*beta/c",
+  "interpretation": "descriptive comparison of a latency-linked safe-delivery gain term with the observed allocation-level safe-delivery slope; not a standalone net-benefit decision rule",
+  "scheme": "cell-preserving bootstrap over (k x map x command) for g,c; stratified by delay-grid cell for beta; equal-weight aggregation; percentile 95% CI",
+  "bootstrap_seed": 20260808,
+  "B": 2000,
+  "results": {
+    "degraded": {
+      "g": 1.923306,
+      "c": 0.0325,
+      "beta": 0.0061343,
+      "R": 0.363017,
+      "ci_low": 0.113211,
+      "ci_high": 0.761332,
+      "n_resamples_valid": 2000,
+      "n_invalid_denominator": 0,
+      "n_resamples_R_below_1": 1992,
+      "beta_crit_over_beta": 3.7547
+    },
+    "severe": {
+      "g": 3.683214,
+      "c": 0.044792,
+      "beta": 0.0061343,
+      "R": 0.50442,
+      "ci_low": 0.153376,
+      "ci_high": 0.940201,
+      "n_resamples_valid": 2000,
+      "n_invalid_denominator": 0,
+      "n_resamples_R_below_1": 1966,
+      "beta_crit_over_beta": 2.9825
+    }
+  }
+}

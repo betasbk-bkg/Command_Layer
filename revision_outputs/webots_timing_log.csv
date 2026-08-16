@@ -1,0 +1,2 @@
+"date_time","webots_version","mode","rendering","seeds","total_runs","total_wall_clock_s","wall_clock_s_per_run","notes"
+"2026-08-09T16:46:24","R2025a","batch fast no-rendering smoke","no-rendering","1","4","73.7895063","18.447376575","Batch Webots smoke completed and wrote the smoke output; this timing row is provided only as an approximate per-run planning guide for reruns."

@@ -1,0 +1,17 @@
+contrast,metric,stress_base,variants,expected_pass_rate,mean_delta
+crowd_minus_auto,attrition_rate,degraded,9,0.6666666666666666,-0.007233796296296292
+crowd_minus_auto,attrition_rate,severe,9,0.6666666666666666,-0.009259259259259257
+crowd_minus_auto,degraded_outcome,degraded,9,0.7777777777777778,-0.1423611111111111
+crowd_minus_auto,degraded_outcome,severe,9,0.6666666666666666,-0.08333333333333333
+crowd_minus_auto,operational_score,degraded,9,0.8888888888888888,3.0688580169356214
+crowd_minus_auto,operational_score,severe,9,1.0,3.131681369210941
+crowd_minus_auto,safe_delivery_success,degraded,9,0.7777777777777778,0.13541666666666666
+crowd_minus_auto,safe_delivery_success,severe,9,0.6666666666666666,0.06944444444444445
+relay_rich_minus_no_relay,attrition_rate,degraded,9,0.5555555555555556,0.0078125
+relay_rich_minus_no_relay,attrition_rate,severe,9,1.0,0.042245370370370364
+relay_rich_minus_no_relay,degraded_outcome,degraded,9,0.4444444444444444,0.017361111111111112
+relay_rich_minus_no_relay,degraded_outcome,severe,9,1.0,0.14583333333333334
+relay_rich_minus_no_relay,operational_score,degraded,9,0.8888888888888888,-0.8281865301322884
+relay_rich_minus_no_relay,operational_score,severe,9,0.8888888888888888,-1.3530428185400072
+relay_rich_minus_no_relay,safe_delivery_success,degraded,9,0.4444444444444444,-0.024305555555555556
+relay_rich_minus_no_relay,safe_delivery_success,severe,9,0.8888888888888888,-0.18055555555555555

@@ -1,0 +1,148 @@
+{
+  "metric": "safe_delivery_success",
+  "statistic": "c = -OLS slope vs relay count k in {0,1,2,3,4}",
+  "scheme": "cell-preserving bootstrap; equal-weight aggregation of cell means; percentile 95% CI",
+  "bootstrap_seed": 20260808,
+  "B": 2000,
+  "strata": {
+    "degraded|map=ALL|command=ALL": {
+      "c": 0.0325,
+      "ci_low": 0.018125,
+      "ci_high": 0.046667,
+      "excludes_zero": true,
+      "n_runs": 2400,
+      "boot_frac_positive": 1.0
+    },
+    "degraded|map=delayed": {
+      "c": 0.028125,
+      "ci_low": 0.003125,
+      "ci_high": 0.051875,
+      "excludes_zero": true,
+      "n_runs": 800,
+      "boot_frac_positive": 0.9855
+    },
+    "degraded|map=scout_belief": {
+      "c": 0.039375,
+      "ci_low": 0.015625,
+      "ci_high": 0.063125,
+      "excludes_zero": true,
+      "n_runs": 800,
+      "boot_frac_positive": 0.999
+    },
+    "degraded|map=no_shared": {
+      "c": 0.03,
+      "ci_low": 0.006875,
+      "ci_high": 0.053125,
+      "excludes_zero": true,
+      "n_runs": 800,
+      "boot_frac_positive": 0.9915
+    },
+    "degraded|command=autonomous": {
+      "c": 0.023333,
+      "ci_low": -0.004167,
+      "ci_high": 0.050021,
+      "excludes_zero": false,
+      "n_runs": 600,
+      "boot_frac_positive": 0.953
+    },
+    "degraded|command=consensus_gated": {
+      "c": 0.025833,
+      "ci_low": -0.001667,
+      "ci_high": 0.053333,
+      "excludes_zero": false,
+      "n_runs": 600,
+      "boot_frac_positive": 0.9695
+    },
+    "degraded|command=crowd_vector": {
+      "c": 0.05,
+      "ci_low": 0.023333,
+      "ci_high": 0.077521,
+      "excludes_zero": true,
+      "n_runs": 600,
+      "boot_frac_positive": 1.0
+    },
+    "degraded|command=stale_hold": {
+      "c": 0.030833,
+      "ci_low": 0.004167,
+      "ci_high": 0.06,
+      "excludes_zero": true,
+      "n_runs": 600,
+      "boot_frac_positive": 0.986
+    },
+    "severe|map=ALL|command=ALL": {
+      "c": 0.044792,
+      "ci_low": 0.032292,
+      "ci_high": 0.057917,
+      "excludes_zero": true,
+      "n_runs": 2400,
+      "boot_frac_positive": 1.0
+    },
+    "severe|map=delayed": {
+      "c": 0.0325,
+      "ci_low": 0.009375,
+      "ci_high": 0.055625,
+      "excludes_zero": true,
+      "n_runs": 800,
+      "boot_frac_positive": 0.9955
+    },
+    "severe|map=scout_belief": {
+      "c": 0.04,
+      "ci_low": 0.018125,
+      "ci_high": 0.063125,
+      "excludes_zero": true,
+      "n_runs": 800,
+      "boot_frac_positive": 1.0
+    },
+    "severe|map=no_shared": {
+      "c": 0.061875,
+      "ci_low": 0.039359,
+      "ci_high": 0.085625,
+      "excludes_zero": true,
+      "n_runs": 800,
+      "boot_frac_positive": 1.0
+    },
+    "severe|command=autonomous": {
+      "c": 0.026667,
+      "ci_low": 0.0,
+      "ci_high": 0.051667,
+      "excludes_zero": false,
+      "n_runs": 600,
+      "boot_frac_positive": 0.975
+    },
+    "severe|command=consensus_gated": {
+      "c": 0.0625,
+      "ci_low": 0.0375,
+      "ci_high": 0.089187,
+      "excludes_zero": true,
+      "n_runs": 600,
+      "boot_frac_positive": 1.0
+    },
+    "severe|command=crowd_vector": {
+      "c": 0.034167,
+      "ci_low": 0.008333,
+      "ci_high": 0.060833,
+      "excludes_zero": true,
+      "n_runs": 600,
+      "boot_frac_positive": 0.9955
+    },
+    "severe|command=stale_hold": {
+      "c": 0.055833,
+      "ci_low": 0.028312,
+      "ci_high": 0.083333,
+      "excludes_zero": true,
+      "n_runs": 600,
+      "boot_frac_positive": 1.0
+    }
+  },
+  "summary": {
+    "point_estimate_positive_all": true,
+    "map_strata_excluding_zero": "6/6",
+    "command_strata_excluding_zero": "5/8",
+    "command_exceptions": [
+      "degraded|command=autonomous",
+      "degraded|command=consensus_gated",
+      "severe|command=autonomous"
+    ],
+    "note": "Per-cell n is 800 for map strata and 600 for command strata; the command exceptions are marginal. Interval endpoints within 1e-12 of zero are treated as touching zero, so a stratum whose lower endpoint rounds to 0.0 is not counted as excluding zero."
+  }
+}

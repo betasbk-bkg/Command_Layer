@@ -1,0 +1,54 @@
+{
+  "decision_space": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "D_nominal": {
+    "degraded": [
+      12,
+      10,
+      8,
+      6,
+      4
+    ],
+    "severe": [
+      24,
+      20,
+      16,
+      12,
+      8
+    ]
+  },
+  "marginal_gain": {
+    "degraded": [
+      null,
+      2,
+      2,
+      2,
+      2
+    ],
+    "severe": [
+      null,
+      4,
+      4,
+      4,
+      4
+    ]
+  },
+  "uniqueness": "k=4 uniquely minimizes nominal delay within the tested decision space {0,1,2,3,4}",
+  "extrapolation_tie_rule": "if extrapolated beyond the tested set the attenuation plateaus at k=4 (0.17*4 = 0.68 = cap); a minimum-relay tie-break then selects k=4",
+  "stop_rule_note": "no stop rule is required for the primary analysis; a stop rule applies only under extrapolation. Phrased fully: add a relay while the next marginal nominal delay gain is positive, and stop when the next marginal gain equals zero.",
+  "selected_k": 4,
+  "safe_delivery_at_selected": {
+    "degraded": 0.49,
+    "severe": 0.285
+  },
+  "safe_delivery_at_k0": {
+    "degraded": 0.617,
+    "severe": 0.442
+  },
+  "note": "static k is a nominal pre-mission proxy; the continuous simulator uses the alive relay count"
+}

@@ -1,0 +1,30 @@
+{
+  "protocol": "S1_smoke_implementation_gates",
+  "created_utc": "2026-08-09T07:34:36.278312+00:00",
+  "n_runs": 320,
+  "expected_runs": 320,
+  "selection": "relay-bearing S1 teams; delayed map; autonomous command; degraded/severe; 40 seeds per condition",
+  "wall_clock_s": 10.571201799999471,
+  "wall_clock_s_per_run": 0.03303500562499835,
+  "projected_remaining_s1_3520_s": 116.2832197999942,
+  "projected_total_9240_s": 305.24345197498474,
+  "projected_total_9240_h": 0.0847898477708291,
+  "source_sha256": {
+    "src/swarm_pilot_experiment.py": "9BFB9F578E861EA51CD9D7D6CE4938B63A29AFAAED5E27017071195557C3316E",
+    "scripts/lambda2_utils.py": "A537951531909E5495057261737C3D227225F64492B65B50C4457A6BC0ECDB5F"
+  },
+  "gates": {
+    "I1_gradient_unit_tests_T1_T7": true,
+    "I2_directional_derivative_smoke": true,
+    "I3_baseline_bit_identity": true,
+    "I4_lambda2_rng_nonconsumption_isolated": true,
+    "I5_numeric_sanity_no_nan_inf": true,
+    "I6_degenerate_fallback_T7": true,
+    "I7_nonrelay_code_unchanged_by_diff_review": true
+  },
+  "g1_report": "reports/g1_baseline_reinstrumentation.json",
+  "g2_report": "reports/s1_g1g2_identity.json",
+  "source_csv": "src/theory_outputs/s1_lambda2_smoke_runs.csv",
+  "i2_report": "reports/s1_directional_derivative_gate.json",
+  "all_gates_passed": true
+}

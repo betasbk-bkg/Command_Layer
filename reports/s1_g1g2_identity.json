@@ -1,0 +1,176 @@
+{
+  "protocol": "G2_no_relay_identity",
+  "created_utc": "2026-08-09T07:32:22.240987+00:00",
+  "selection": "no_relay_hetero only; first 20 deterministic relay_sweep seeds per condition, as sealed G2 implementation check",
+  "rows": 480,
+  "expected_rows": 480,
+  "matched_rows": 480,
+  "missing_rows": 0,
+  "extra_rows": 0,
+  "archive_columns": 47,
+  "g2_columns": 60,
+  "compared_existing_columns_direct": 46,
+  "direct_comparison_excludes": [
+    "degraded_outcome"
+  ],
+  "panel_relative_columns": [
+    "degraded_outcome"
+  ],
+  "panel_relative_note": "degraded_outcome is defined using run-panel 75th-percentile cutoffs inside summarize_results; the sealed protocol excludes it from S1 comparisons. Direct identity is therefore evaluated on all non-panel-relative archived columns. Raw subset-recomputed label flips are reported, not treated as trajectory mismatches.",
+  "direct_mismatches_count_capped": 0,
+  "direct_mismatches_first": [],
+  "raw_panel_relative_mismatches_count_capped": 11,
+  "raw_panel_relative_mismatches_first": [
+    {
+      "key": {
+        "team": "no_relay_hetero",
+        "map_mode": "delayed",
+        "command_mode": "autonomous",
+        "stress": "severe",
+        "mission_profile": "full_delivery",
+        "seed": "3828216884"
+      },
+      "column": "degraded_outcome",
+      "archive_panel_label": "1",
+      "subset_recomputed_label": "0"
+    },
+    {
+      "key": {
+        "team": "no_relay_hetero",
+        "map_mode": "no_shared",
+        "command_mode": "autonomous",
+        "stress": "severe",
+        "mission_profile": "full_delivery",
+        "seed": "1674050551"
+      },
+      "column": "degraded_outcome",
+      "archive_panel_label": "1",
+      "subset_recomputed_label": "0"
+    },
+    {
+      "key": {
+        "team": "no_relay_hetero",
+        "map_mode": "no_shared",
+        "command_mode": "crowd_vector",
+        "stress": "degraded",
+        "mission_profile": "full_delivery",
+        "seed": "624520263"
+      },
+      "column": "degraded_outcome",
+      "archive_panel_label": "1",
+      "subset_recomputed_label": "0"
+    },
+    {
+      "key": {
+        "team": "no_relay_hetero",
+        "map_mode": "no_shared",
+        "command_mode": "stale_hold",
+        "stress": "severe",
+        "mission_profile": "full_delivery",
+        "seed": "1490799892"
+      },
+      "column": "degraded_outcome",
+      "archive_panel_label": "1",
+      "subset_recomputed_label": "0"
+    },
+    {
+      "key": {
+        "team": "no_relay_hetero",
+        "map_mode": "scout_belief",
+        "command_mode": "autonomous",
+        "stress": "degraded",
+        "mission_profile": "full_delivery",
+        "seed": "990197475"
+      },
+      "column": "degraded_outcome",
+      "archive_panel_label": "1",
+      "subset_recomputed_label": "0"
+    },
+    {
+      "key": {
+        "team": "no_relay_hetero",
+        "map_mode": "scout_belief",
+        "command_mode": "autonomous",
+        "stress": "degraded",
+        "mission_profile": "full_delivery",
+        "seed": "990204538"
+      },
+      "column": "degraded_outcome",
+      "archive_panel_label": "1",
+      "subset_recomputed_label": "0"
+    },
+    {
+      "key": {
+        "team": "no_relay_hetero",
+        "map_mode": "scout_belief",
+        "command_mode": "autonomous",
+        "stress": "degraded",
+        "mission_profile": "full_delivery",
+        "seed": "990208574"
+      },
+      "column": "degraded_outcome",
+      "archive_panel_label": "1",
+      "subset_recomputed_label": "0"
+    },
+    {
+      "key": {
+        "team": "no_relay_hetero",
+        "map_mode": "scout_belief",
+        "command_mode": "consensus_gated",
+        "stress": "degraded",
+        "mission_profile": "full_delivery",
+        "seed": "562671249"
+      },
+      "column": "degraded_outcome",
+      "archive_panel_label": "1",
+      "subset_recomputed_label": "0"
+    },
+    {
+      "key": {
+        "team": "no_relay_hetero",
+        "map_mode": "scout_belief",
+        "command_mode": "consensus_gated",
+        "stress": "degraded",
+        "mission_profile": "full_delivery",
+        "seed": "562681339"
+      },
+      "column": "degraded_outcome",
+      "archive_panel_label": "1",
+      "subset_recomputed_label": "0"
+    },
+    {
+      "key": {
+        "team": "no_relay_hetero",
+        "map_mode": "scout_belief",
+        "command_mode": "crowd_vector",
+        "stress": "severe",
+        "mission_profile": "full_delivery",
+        "seed": "200202927"
+      },
+      "column": "degraded_outcome",
+      "archive_panel_label": "1",
+      "subset_recomputed_label": "0"
+    },
+    {
+      "key": {
+        "team": "no_relay_hetero",
+        "map_mode": "scout_belief",
+        "command_mode": "stale_hold",
+        "stress": "degraded",
+        "mission_profile": "full_delivery",
+        "seed": "3075834681"
+      },
+      "column": "degraded_outcome",
+      "archive_panel_label": "1",
+      "subset_recomputed_label": "0"
+    }
+  ],
+  "python": "3.14.0",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "source_sha256": {
+    "src/swarm_pilot_experiment.py": "9BFB9F578E861EA51CD9D7D6CE4938B63A29AFAAED5E27017071195557C3316E",
+    "scripts/lambda2_utils.py": "A537951531909E5495057261737C3D227225F64492B65B50C4457A6BC0ECDB5F"
+  },
+  "passed": true,
+  "source_csv": "src/theory_outputs/g2_no_relay_s1_runs.csv"
+}

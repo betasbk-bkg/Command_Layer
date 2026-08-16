@@ -1,0 +1,64 @@
+{
+  "protocol": "webots_movie_pixel_qa",
+  "created_utc": "2026-08-09T14:40:37.808384+00:00",
+  "checks": [
+    {
+      "path": "revision_outputs/webots_movie_no_relay_hetero_autonomous_severe_rep3.mp4",
+      "exists": true,
+      "size_bytes": 5073986,
+      "frames": 225,
+      "shape": [
+        720,
+        1280,
+        3
+      ],
+      "y_min": 100,
+      "max_nonzero_pixels_below_y_min": 2380791,
+      "mean_rgb_below_y_min": 221.64691252053464,
+      "max_std_rgb_below_y_min": 44.041556498346495,
+      "min_nonzero_pixels": 1000,
+      "min_mean_rgb": 1.0,
+      "min_std_rgb": 20.0,
+      "passed": true
+    },
+    {
+      "path": "revision_outputs/webots_movie_relay_rich_autonomous_severe_rep3.mp4",
+      "exists": true,
+      "size_bytes": 4150985,
+      "frames": 292,
+      "shape": [
+        720,
+        1280,
+        3
+      ],
+      "y_min": 100,
+      "max_nonzero_pixels_below_y_min": 2380764,
+      "mean_rgb_below_y_min": 217.2934945574873,
+      "max_std_rgb_below_y_min": 43.45198734238873,
+      "min_nonzero_pixels": 1000,
+      "min_mean_rgb": 1.0,
+      "min_std_rgb": 20.0,
+      "passed": true
+    },
+    {
+      "path": "revision_outputs/webots_movie_side_by_side_tradeoff.mp4",
+      "exists": true,
+      "size_bytes": 2720922,
+      "frames": 292,
+      "shape": [
+        720,
+        1920,
+        3
+      ],
+      "y_min": 100,
+      "max_nonzero_pixels_below_y_min": 3570375,
+      "mean_rgb_below_y_min": 164.59333807733557,
+      "max_std_rgb_below_y_min": 95.33828135223533,
+      "min_nonzero_pixels": 1000,
+      "min_mean_rgb": 1.0,
+      "min_std_rgb": 20.0,
+      "passed": true
+    }
+  ],
+  "passed": true
+}

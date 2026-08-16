@@ -1,0 +1,947 @@
+{
+  "output_path": "revision_outputs/webots_movie_relay_rich_autonomous_severe_rep3_runs.csv",
+  "trials": [
+    {
+      "team": "no_relay_hetero",
+      "command_mode": "autonomous",
+      "stress": "degraded",
+      "seed": 2084759348
+    },
+    {
+      "team": "no_relay_hetero",
+      "command_mode": "autonomous",
+      "stress": "degraded",
+      "seed": 2101536967
+    },
+    {
+      "team": "no_relay_hetero",
+      "command_mode": "autonomous",
+      "stress": "degraded",
+      "seed": 2118314586
+    },
+    {
+      "team": "no_relay_hetero",
+      "command_mode": "autonomous",
+      "stress": "degraded",
+      "seed": 2135092205
+    },
+    {
+      "team": "no_relay_hetero",
+      "command_mode": "autonomous",
+      "stress": "degraded",
+      "seed": 2017648872
+    },
+    {
+      "team": "no_relay_hetero",
+      "command_mode": "autonomous",
+      "stress": "degraded",
+      "seed": 2034426491
+    },
+    {
+      "team": "no_relay_hetero",
+      "command_mode": "autonomous",
+      "stress": "degraded",
+      "seed": 2051204110
+    },
+    {
+      "team": "no_relay_hetero",
+      "command_mode": "autonomous",
+      "stress": "degraded",
+      "seed": 2067981729
+    },
+    {
+      "team": "no_relay_hetero",
+      "command_mode": "autonomous",
+      "stress": "severe",
+      "seed": 984692782
+    },
+    {
+      "team": "no_relay_hetero",
+      "command_mode": "autonomous",
+      "stress": "severe",
+      "seed": 1001470401
+    },
+    {
+      "team": "no_relay_hetero",
+      "command_mode": "autonomous",
+      "stress": "severe",
+      "seed": 951137544
+    },
+    {
+      "team": "no_relay_hetero",
+      "command_mode": "autonomous",
+      "stress": "severe",
+      "seed": 967915163
+    },
+    {
+      "team": "no_relay_hetero",
+      "command_mode": "autonomous",
+      "stress": "severe",
+      "seed": 1051803258
+    },
+    {
+      "team": "no_relay_hetero",
+      "command_mode": "autonomous",
+      "stress": "severe",
+      "seed": 1068580877
+    },
+    {
+      "team": "no_relay_hetero",
+      "command_mode": "autonomous",
+      "stress": "severe",
+      "seed": 1018248020
+    },
+    {
+      "team": "no_relay_hetero",
+      "command_mode": "autonomous",
+      "stress": "severe",
+      "seed": 1035025639
+    },
+    {
+      "team": "no_relay_hetero",
+      "command_mode": "crowd_vector",
+      "stress": "degraded",
+      "seed": 3115483687
+    },
+    {
+      "team": "no_relay_hetero",
+      "command_mode": "crowd_vector",
+      "stress": "degraded",
+      "seed": 3098706068
+    },
+    {
+      "team": "no_relay_hetero",
+      "command_mode": "crowd_vector",
+      "stress": "degraded",
+      "seed": 3149038925
+    },
+    {
+      "team": "no_relay_hetero",
+      "command_mode": "crowd_vector",
+      "stress": "degraded",
+      "seed": 3132261306
+    },
+    {
+      "team": "no_relay_hetero",
+      "command_mode": "crowd_vector",
+      "stress": "degraded",
+      "seed": 3048373211
+    },
+    {
+      "team": "no_relay_hetero",
+      "command_mode": "crowd_vector",
+      "stress": "degraded",
+      "seed": 3031595592
+    },
+    {
+      "team": "no_relay_hetero",
+      "command_mode": "crowd_vector",
+      "stress": "degraded",
+      "seed": 3081928449
+    },
+    {
+      "team": "no_relay_hetero",
+      "command_mode": "crowd_vector",
+      "stress": "degraded",
+      "seed": 3065150830
+    },
+    {
+      "team": "no_relay_hetero",
+      "command_mode": "crowd_vector",
+      "stress": "severe",
+      "seed": 640376689
+    },
+    {
+      "team": "no_relay_hetero",
+      "command_mode": "crowd_vector",
+      "stress": "severe",
+      "seed": 623599070
+    },
+    {
+      "team": "no_relay_hetero",
+      "command_mode": "crowd_vector",
+      "stress": "severe",
+      "seed": 606821451
+    },
+    {
+      "team": "no_relay_hetero",
+      "command_mode": "crowd_vector",
+      "stress": "severe",
+      "seed": 590043832
+    },
+    {
+      "team": "no_relay_hetero",
+      "command_mode": "crowd_vector",
+      "stress": "severe",
+      "seed": 707487165
+    },
+    {
+      "team": "no_relay_hetero",
+      "command_mode": "crowd_vector",
+      "stress": "severe",
+      "seed": 690709546
+    },
+    {
+      "team": "no_relay_hetero",
+      "command_mode": "crowd_vector",
+      "stress": "severe",
+      "seed": 673931927
+    },
+    {
+      "team": "no_relay_hetero",
+      "command_mode": "crowd_vector",
+      "stress": "severe",
+      "seed": 657154308
+    },
+    {
+      "team": "no_relay_hetero",
+      "command_mode": "consensus_gated",
+      "stress": "degraded",
+      "seed": 3302453807
+    },
+    {
+      "team": "no_relay_hetero",
+      "command_mode": "consensus_gated",
+      "stress": "degraded",
+      "seed": 3285676188
+    },
+    {
+      "team": "no_relay_hetero",
+      "command_mode": "consensus_gated",
+      "stress": "degraded",
+      "seed": 3336009045
+    },
+    {
+      "team": "no_relay_hetero",
+      "command_mode": "consensus_gated",
+      "stress": "degraded",
+      "seed": 3319231426
+    },
+    {
+      "team": "no_relay_hetero",
+      "command_mode": "consensus_gated",
+      "stress": "degraded",
+      "seed": 3235343331
+    },
+    {
+      "team": "no_relay_hetero",
+      "command_mode": "consensus_gated",
+      "stress": "degraded",
+      "seed": 3218565712
+    },
+    {
+      "team": "no_relay_hetero",
+      "command_mode": "consensus_gated",
+      "stress": "degraded",
+      "seed": 3268898569
+    },
+    {
+      "team": "no_relay_hetero",
+      "command_mode": "consensus_gated",
+      "stress": "degraded",
+      "seed": 3252120950
+    },
+    {
+      "team": "no_relay_hetero",
+      "command_mode": "consensus_gated",
+      "stress": "severe",
+      "seed": 3908060153
+    },
+    {
+      "team": "no_relay_hetero",
+      "command_mode": "consensus_gated",
+      "stress": "severe",
+      "seed": 3891282534
+    },
+    {
+      "team": "no_relay_hetero",
+      "command_mode": "consensus_gated",
+      "stress": "severe",
+      "seed": 3874504915
+    },
+    {
+      "team": "no_relay_hetero",
+      "command_mode": "consensus_gated",
+      "stress": "severe",
+      "seed": 3857727296
+    },
+    {
+      "team": "no_relay_hetero",
+      "command_mode": "consensus_gated",
+      "stress": "severe",
+      "seed": 3975170629
+    },
+    {
+      "team": "no_relay_hetero",
+      "command_mode": "consensus_gated",
+      "stress": "severe",
+      "seed": 3958393010
+    },
+    {
+      "team": "no_relay_hetero",
+      "command_mode": "consensus_gated",
+      "stress": "severe",
+      "seed": 3941615391
+    },
+    {
+      "team": "no_relay_hetero",
+      "command_mode": "consensus_gated",
+      "stress": "severe",
+      "seed": 3924837772
+    },
+    {
+      "team": "relay_sparse",
+      "command_mode": "autonomous",
+      "stress": "degraded",
+      "seed": 1027392737
+    },
+    {
+      "team": "relay_sparse",
+      "command_mode": "autonomous",
+      "stress": "degraded",
+      "seed": 1010615118
+    },
+    {
+      "team": "relay_sparse",
+      "command_mode": "autonomous",
+      "stress": "degraded",
+      "seed": 993837499
+    },
+    {
+      "team": "relay_sparse",
+      "command_mode": "autonomous",
+      "stress": "degraded",
+      "seed": 977059880
+    },
+    {
+      "team": "relay_sparse",
+      "command_mode": "autonomous",
+      "stress": "degraded",
+      "seed": 1094503213
+    },
+    {
+      "team": "relay_sparse",
+      "command_mode": "autonomous",
+      "stress": "degraded",
+      "seed": 1077725594
+    },
+    {
+      "team": "relay_sparse",
+      "command_mode": "autonomous",
+      "stress": "degraded",
+      "seed": 1060947975
+    },
+    {
+      "team": "relay_sparse",
+      "command_mode": "autonomous",
+      "stress": "degraded",
+      "seed": 1044170356
+    },
+    {
+      "team": "relay_sparse",
+      "command_mode": "autonomous",
+      "stress": "severe",
+      "seed": 3025210695
+    },
+    {
+      "team": "relay_sparse",
+      "command_mode": "autonomous",
+      "stress": "severe",
+      "seed": 3008433076
+    },
+    {
+      "team": "relay_sparse",
+      "command_mode": "autonomous",
+      "stress": "severe",
+      "seed": 3058765933
+    },
+    {
+      "team": "relay_sparse",
+      "command_mode": "autonomous",
+      "stress": "severe",
+      "seed": 3041988314
+    },
+    {
+      "team": "relay_sparse",
+      "command_mode": "autonomous",
+      "stress": "severe",
+      "seed": 2958100219
+    },
+    {
+      "team": "relay_sparse",
+      "command_mode": "autonomous",
+      "stress": "severe",
+      "seed": 2941322600
+    },
+    {
+      "team": "relay_sparse",
+      "command_mode": "autonomous",
+      "stress": "severe",
+      "seed": 2991655457
+    },
+    {
+      "team": "relay_sparse",
+      "command_mode": "autonomous",
+      "stress": "severe",
+      "seed": 2974877838
+    },
+    {
+      "team": "relay_sparse",
+      "command_mode": "crowd_vector",
+      "stress": "degraded",
+      "seed": 740983782
+    },
+    {
+      "team": "relay_sparse",
+      "command_mode": "crowd_vector",
+      "stress": "degraded",
+      "seed": 757761401
+    },
+    {
+      "team": "relay_sparse",
+      "command_mode": "crowd_vector",
+      "stress": "degraded",
+      "seed": 707428544
+    },
+    {
+      "team": "relay_sparse",
+      "command_mode": "crowd_vector",
+      "stress": "degraded",
+      "seed": 724206163
+    },
+    {
+      "team": "relay_sparse",
+      "command_mode": "crowd_vector",
+      "stress": "degraded",
+      "seed": 808094258
+    },
+    {
+      "team": "relay_sparse",
+      "command_mode": "crowd_vector",
+      "stress": "degraded",
+      "seed": 824871877
+    },
+    {
+      "team": "relay_sparse",
+      "command_mode": "crowd_vector",
+      "stress": "degraded",
+      "seed": 774539020
+    },
+    {
+      "team": "relay_sparse",
+      "command_mode": "crowd_vector",
+      "stress": "degraded",
+      "seed": 791316639
+    },
+    {
+      "team": "relay_sparse",
+      "command_mode": "crowd_vector",
+      "stress": "severe",
+      "seed": 3233832908
+    },
+    {
+      "team": "relay_sparse",
+      "command_mode": "crowd_vector",
+      "stress": "severe",
+      "seed": 3250610527
+    },
+    {
+      "team": "relay_sparse",
+      "command_mode": "crowd_vector",
+      "stress": "severe",
+      "seed": 3267388146
+    },
+    {
+      "team": "relay_sparse",
+      "command_mode": "crowd_vector",
+      "stress": "severe",
+      "seed": 3284165765
+    },
+    {
+      "team": "relay_sparse",
+      "command_mode": "crowd_vector",
+      "stress": "severe",
+      "seed": 3166722432
+    },
+    {
+      "team": "relay_sparse",
+      "command_mode": "crowd_vector",
+      "stress": "severe",
+      "seed": 3183500051
+    },
+    {
+      "team": "relay_sparse",
+      "command_mode": "crowd_vector",
+      "stress": "severe",
+      "seed": 3200277670
+    },
+    {
+      "team": "relay_sparse",
+      "command_mode": "crowd_vector",
+      "stress": "severe",
+      "seed": 3217055289
+    },
+    {
+      "team": "relay_sparse",
+      "command_mode": "consensus_gated",
+      "stress": "degraded",
+      "seed": 2823602824
+    },
+    {
+      "team": "relay_sparse",
+      "command_mode": "consensus_gated",
+      "stress": "degraded",
+      "seed": 2840380443
+    },
+    {
+      "team": "relay_sparse",
+      "command_mode": "consensus_gated",
+      "stress": "degraded",
+      "seed": 2857158062
+    },
+    {
+      "team": "relay_sparse",
+      "command_mode": "consensus_gated",
+      "stress": "degraded",
+      "seed": 2873935681
+    },
+    {
+      "team": "relay_sparse",
+      "command_mode": "consensus_gated",
+      "stress": "degraded",
+      "seed": 2890713300
+    },
+    {
+      "team": "relay_sparse",
+      "command_mode": "consensus_gated",
+      "stress": "degraded",
+      "seed": 2907490919
+    },
+    {
+      "team": "relay_sparse",
+      "command_mode": "consensus_gated",
+      "stress": "degraded",
+      "seed": 2924268538
+    },
+    {
+      "team": "relay_sparse",
+      "command_mode": "consensus_gated",
+      "stress": "degraded",
+      "seed": 2941046157
+    },
+    {
+      "team": "relay_sparse",
+      "command_mode": "consensus_gated",
+      "stress": "severe",
+      "seed": 2934031026
+    },
+    {
+      "team": "relay_sparse",
+      "command_mode": "consensus_gated",
+      "stress": "severe",
+      "seed": 2950808645
+    },
+    {
+      "team": "relay_sparse",
+      "command_mode": "consensus_gated",
+      "stress": "severe",
+      "seed": 2900475788
+    },
+    {
+      "team": "relay_sparse",
+      "command_mode": "consensus_gated",
+      "stress": "severe",
+      "seed": 2917253407
+    },
+    {
+      "team": "relay_sparse",
+      "command_mode": "consensus_gated",
+      "stress": "severe",
+      "seed": 2866920550
+    },
+    {
+      "team": "relay_sparse",
+      "command_mode": "consensus_gated",
+      "stress": "severe",
+      "seed": 2883698169
+    },
+    {
+      "team": "relay_sparse",
+      "command_mode": "consensus_gated",
+      "stress": "severe",
+      "seed": 2833365312
+    },
+    {
+      "team": "relay_sparse",
+      "command_mode": "consensus_gated",
+      "stress": "severe",
+      "seed": 2850142931
+    },
+    {
+      "team": "balanced_hetero",
+      "command_mode": "autonomous",
+      "stress": "degraded",
+      "seed": 789551239
+    },
+    {
+      "team": "balanced_hetero",
+      "command_mode": "autonomous",
+      "stress": "degraded",
+      "seed": 772773620
+    },
+    {
+      "team": "balanced_hetero",
+      "command_mode": "autonomous",
+      "stress": "degraded",
+      "seed": 823106477
+    },
+    {
+      "team": "balanced_hetero",
+      "command_mode": "autonomous",
+      "stress": "degraded",
+      "seed": 806328858
+    },
+    {
+      "team": "balanced_hetero",
+      "command_mode": "autonomous",
+      "stress": "degraded",
+      "seed": 722440763
+    },
+    {
+      "team": "balanced_hetero",
+      "command_mode": "autonomous",
+      "stress": "degraded",
+      "seed": 705663144
+    },
+    {
+      "team": "balanced_hetero",
+      "command_mode": "autonomous",
+      "stress": "degraded",
+      "seed": 755996001
+    },
+    {
+      "team": "balanced_hetero",
+      "command_mode": "autonomous",
+      "stress": "degraded",
+      "seed": 739218382
+    },
+    {
+      "team": "balanced_hetero",
+      "command_mode": "autonomous",
+      "stress": "severe",
+      "seed": 269251153
+    },
+    {
+      "team": "balanced_hetero",
+      "command_mode": "autonomous",
+      "stress": "severe",
+      "seed": 252473534
+    },
+    {
+      "team": "balanced_hetero",
+      "command_mode": "autonomous",
+      "stress": "severe",
+      "seed": 235695915
+    },
+    {
+      "team": "balanced_hetero",
+      "command_mode": "autonomous",
+      "stress": "severe",
+      "seed": 218918296
+    },
+    {
+      "team": "balanced_hetero",
+      "command_mode": "autonomous",
+      "stress": "severe",
+      "seed": 336361629
+    },
+    {
+      "team": "balanced_hetero",
+      "command_mode": "autonomous",
+      "stress": "severe",
+      "seed": 319584010
+    },
+    {
+      "team": "balanced_hetero",
+      "command_mode": "autonomous",
+      "stress": "severe",
+      "seed": 302806391
+    },
+    {
+      "team": "balanced_hetero",
+      "command_mode": "autonomous",
+      "stress": "severe",
+      "seed": 286028772
+    },
+    {
+      "team": "balanced_hetero",
+      "command_mode": "crowd_vector",
+      "stress": "degraded",
+      "seed": 4202289588
+    },
+    {
+      "team": "balanced_hetero",
+      "command_mode": "crowd_vector",
+      "stress": "degraded",
+      "seed": 4219067207
+    },
+    {
+      "team": "balanced_hetero",
+      "command_mode": "crowd_vector",
+      "stress": "degraded",
+      "seed": 4235844826
+    },
+    {
+      "team": "balanced_hetero",
+      "command_mode": "crowd_vector",
+      "stress": "degraded",
+      "seed": 4252622445
+    },
+    {
+      "team": "balanced_hetero",
+      "command_mode": "crowd_vector",
+      "stress": "degraded",
+      "seed": 4135179112
+    },
+    {
+      "team": "balanced_hetero",
+      "command_mode": "crowd_vector",
+      "stress": "degraded",
+      "seed": 4151956731
+    },
+    {
+      "team": "balanced_hetero",
+      "command_mode": "crowd_vector",
+      "stress": "degraded",
+      "seed": 4168734350
+    },
+    {
+      "team": "balanced_hetero",
+      "command_mode": "crowd_vector",
+      "stress": "degraded",
+      "seed": 4185511969
+    },
+    {
+      "team": "balanced_hetero",
+      "command_mode": "crowd_vector",
+      "stress": "severe",
+      "seed": 2847491758
+    },
+    {
+      "team": "balanced_hetero",
+      "command_mode": "crowd_vector",
+      "stress": "severe",
+      "seed": 2864269377
+    },
+    {
+      "team": "balanced_hetero",
+      "command_mode": "crowd_vector",
+      "stress": "severe",
+      "seed": 2813936520
+    },
+    {
+      "team": "balanced_hetero",
+      "command_mode": "crowd_vector",
+      "stress": "severe",
+      "seed": 2830714139
+    },
+    {
+      "team": "balanced_hetero",
+      "command_mode": "crowd_vector",
+      "stress": "severe",
+      "seed": 2914602234
+    },
+    {
+      "team": "balanced_hetero",
+      "command_mode": "crowd_vector",
+      "stress": "severe",
+      "seed": 2931379853
+    },
+    {
+      "team": "balanced_hetero",
+      "command_mode": "crowd_vector",
+      "stress": "severe",
+      "seed": 2881046996
+    },
+    {
+      "team": "balanced_hetero",
+      "command_mode": "crowd_vector",
+      "stress": "severe",
+      "seed": 2897824615
+    },
+    {
+      "team": "balanced_hetero",
+      "command_mode": "consensus_gated",
+      "stress": "degraded",
+      "seed": 3998230570
+    },
+    {
+      "team": "balanced_hetero",
+      "command_mode": "consensus_gated",
+      "stress": "degraded",
+      "seed": 4015008189
+    },
+    {
+      "team": "balanced_hetero",
+      "command_mode": "consensus_gated",
+      "stress": "degraded",
+      "seed": 3964675332
+    },
+    {
+      "team": "balanced_hetero",
+      "command_mode": "consensus_gated",
+      "stress": "degraded",
+      "seed": 3981452951
+    },
+    {
+      "team": "balanced_hetero",
+      "command_mode": "consensus_gated",
+      "stress": "degraded",
+      "seed": 3931120094
+    },
+    {
+      "team": "balanced_hetero",
+      "command_mode": "consensus_gated",
+      "stress": "degraded",
+      "seed": 3947897713
+    },
+    {
+      "team": "balanced_hetero",
+      "command_mode": "consensus_gated",
+      "stress": "degraded",
+      "seed": 3897564856
+    },
+    {
+      "team": "balanced_hetero",
+      "command_mode": "consensus_gated",
+      "stress": "degraded",
+      "seed": 3914342475
+    },
+    {
+      "team": "balanced_hetero",
+      "command_mode": "consensus_gated",
+      "stress": "severe",
+      "seed": 14319408
+    },
+    {
+      "team": "balanced_hetero",
+      "command_mode": "consensus_gated",
+      "stress": "severe",
+      "seed": 31097027
+    },
+    {
+      "team": "balanced_hetero",
+      "command_mode": "consensus_gated",
+      "stress": "severe",
+      "seed": 47874646
+    },
+    {
+      "team": "balanced_hetero",
+      "command_mode": "consensus_gated",
+      "stress": "severe",
+      "seed": 64652265
+    },
+    {
+      "team": "balanced_hetero",
+      "command_mode": "consensus_gated",
+      "stress": "severe",
+      "seed": 81429884
+    },
+    {
+      "team": "balanced_hetero",
+      "command_mode": "consensus_gated",
+      "stress": "severe",
+      "seed": 98207503
+    },
+    {
+      "team": "balanced_hetero",
+      "command_mode": "consensus_gated",
+      "stress": "severe",
+      "seed": 114985122
+    },
+    {
+      "team": "balanced_hetero",
+      "command_mode": "consensus_gated",
+      "stress": "severe",
+      "seed": 131762741
+    },
+    {
+      "team": "relay_rich",
+      "command_mode": "autonomous",
+      "stress": "degraded",
+      "seed": 3919617035
+    },
+    {
+      "team": "relay_rich",
+      "command_mode": "autonomous",
+      "stress": "degraded",
+      "seed": 3902839416
+    },
+    {
+      "team": "relay_rich",
+      "command_mode": "autonomous",
+      "stress": "degraded",
+      "seed": 3953172273
+    },
+    {
+      "team": "relay_rich",
+      "command_mode": "autonomous",
+      "stress": "degraded",
+      "seed": 3936394654
+    },
+    {
+      "team": "relay_rich",
+      "command_mode": "autonomous",
+      "stress": "degraded",
+      "seed": 3986727511
+    },
+    {
+      "team": "relay_rich",
+      "command_mode": "autonomous",
+      "stress": "degraded",
+      "seed": 3969949892
+    },
+    {
+      "team": "relay_rich",
+      "command_mode": "autonomous",
+      "stress": "degraded",
+      "seed": 4020282749
+    },
+    {
+      "team": "relay_rich",
+      "command_mode": "autonomous",
+      "stress": "degraded",
+      "seed": 4003505130
+    },
+    {
+      "team": "relay_rich",
+      "command_mode": "autonomous",
+      "stress": "severe",
+      "seed": 728515477
+    },
+    {
+      "team": "relay_rich",
+      "command_mode": "autonomous",
+      "stress": "severe",
+      "seed": 711737858
+    },
+    {
+      "team": "relay_rich",
+      "command_mode": "autonomous",
+      "stress": "severe",
+      "seed": 694960239
+    },
+    {
+      "team": "relay_rich",
+      "command_mode": "autonomous",
+      "stress": "severe",
+      "seed": 678182620
+    }
+  ],
+  "movie_match": {
+    "team": "relay_rich",
+    "command_mode": "autonomous",
+    "stress": "severe",
+    "seed": 678182620
+  }
+}

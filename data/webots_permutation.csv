@@ -1,0 +1,15 @@
+layer,stress,contrast_type,contrast,metric,delta,p_permutation_two_sided,n_left,n_right,q_bh_within_webots_family
+webots,degraded,team,relay_rich_minus_no_relay_hetero,safe_delivery_success,-0.33333333333333337,0.03884805759712014,24,24,0.06842157892105395
+webots,degraded,team,relay_rich_minus_no_relay_hetero,degraded_outcome,0.3333333333333333,0.039098045097745115,24,24,0.06842157892105395
+webots,degraded,team,relay_rich_minus_no_relay_hetero,attrition_rate,0.1145833333333333,4.999750012499375e-05,24,24,0.00011666083362498542
+webots,degraded,team,relay_rich_minus_no_relay_hetero,payload_delivery_rate,0.08333333333333326,0.40907954602269886,24,24,0.47725947035981536
+webots,degraded,team,relay_rich_minus_no_relay_hetero,mean_effective_map_delay,-12.0,4.999750012499375e-05,24,24,0.00011666083362498542
+webots,degraded,command,crowd_vector_minus_autonomous,safe_delivery_success,0.15625,0.31988400579971,32,32,0.40712509829053994
+webots,degraded,command,consensus_gated_minus_autonomous,operational_score,7.058089468782299,0.06004699765011749,32,32,0.09340644078907165
+webots,severe,team,relay_rich_minus_no_relay_hetero,safe_delivery_success,-0.625,4.999750012499375e-05,24,24,0.00011666083362498542
+webots,severe,team,relay_rich_minus_no_relay_hetero,degraded_outcome,0.625,4.999750012499375e-05,24,24,0.00011666083362498542
+webots,severe,team,relay_rich_minus_no_relay_hetero,attrition_rate,0.14930555555555552,4.999750012499375e-05,24,24,0.00011666083362498542
+webots,severe,team,relay_rich_minus_no_relay_hetero,payload_delivery_rate,-0.04166666666666674,0.7687115644217789,24,24,0.8278432232234542
+webots,severe,team,relay_rich_minus_no_relay_hetero,mean_effective_map_delay,-22.0,4.999750012499375e-05,24,24,0.00011666083362498542
+webots,severe,command,crowd_vector_minus_autonomous,safe_delivery_success,0.0,1.0,32,32,1.0
+webots,severe,command,consensus_gated_minus_autonomous,operational_score,3.8552941572513504,0.2525873706314684,32,32,0.3536223188840558

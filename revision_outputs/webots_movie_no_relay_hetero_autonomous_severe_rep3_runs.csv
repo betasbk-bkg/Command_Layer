@@ -1,0 +1,13 @@
+environment,team,relay_count,map_mode,command_mode,stress,seed,mission_success,safe_delivery_success,degraded_outcome,payload_delivery_rate,mean_progress,operational_score,attrition_rate,mean_hazard_exposure,mean_effective_map_delay,packet_loss,completion_step,mean_command_consensus,command_reversal_rate
+webots_physics,no_relay_hetero,0,delayed_hazard,autonomous,degraded,2084759348,0,0,1,0.5,0.7215499663829893,64.38713478985194,0.0,0.13594396120011076,18,0.1,760,0.0,0.0
+webots_physics,no_relay_hetero,0,delayed_hazard,autonomous,degraded,2101536967,0,0,1,0.5,0.6159380912022766,56.18527319013376,0.0,0.23309555997807216,18,0.1,760,0.0,0.0
+webots_physics,no_relay_hetero,0,delayed_hazard,autonomous,degraded,2118314586,1,1,0,1.0,0.923724772094063,93.3284266112264,0.0,0.0829880214691046,18,0.1,456,0.0,0.0
+webots_physics,no_relay_hetero,0,delayed_hazard,autonomous,degraded,2135092205,0,0,1,0.0,0.7275500240095246,38.86603436599331,0.0,0.2159171350326049,18,0.1,760,0.0,0.0
+webots_physics,no_relay_hetero,0,delayed_hazard,autonomous,degraded,2017648872,0,0,1,0.5,0.6928782260087788,57.629077424210685,0.0,0.25208969214337335,18,0.1,760,0.0,0.0
+webots_physics,no_relay_hetero,0,delayed_hazard,autonomous,degraded,2034426491,0,0,1,0.5,0.8834147257969446,66.94183249946687,0.0,0.15874493005131085,18,0.1,760,0.0,0.0
+webots_physics,no_relay_hetero,0,delayed_hazard,autonomous,degraded,2051204110,1,1,0,1.0,0.8500766704791697,90.86368486064791,0.0,0.09493980395746555,18,0.1,530,0.0,0.0
+webots_physics,no_relay_hetero,0,delayed_hazard,autonomous,degraded,2067981729,1,1,0,1.0,0.879383223559442,88.73930359321515,0.0,0.14341532180933905,18,0.1,567,0.0,0.0
+webots_physics,no_relay_hetero,0,delayed_hazard,autonomous,severe,984692782,0,0,1,0.5,0.7909208002771712,63.28587800358964,0.0,0.18336379205249956,34,0.22,760,0.0,0.0
+webots_physics,no_relay_hetero,0,delayed_hazard,autonomous,severe,1001470401,1,1,0,1.0,0.7892148968612359,87.38771306711058,0.0,0.12948761927244132,34,0.22,637,0.0,0.0
+webots_physics,no_relay_hetero,0,delayed_hazard,autonomous,severe,951137544,1,1,0,1.0,0.8441080505461535,90.32401560918326,0.0,0.10173561606727598,34,0.22,540,0.0,0.0
+webots_physics,no_relay_hetero,0,delayed_hazard,autonomous,severe,967915163,1,1,0,1.0,0.8393505894405333,90.46354538818638,0.0,0.09738632157233845,34,0.22,436,0.0,0.0

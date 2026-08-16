@@ -1,0 +1,29 @@
+{
+  "protocol": "G1_baseline_reinstrumentation",
+  "created_utc": "2026-08-09T07:20:24.524196+00:00",
+  "archive_rows": 4800,
+  "reinstrumented_rows": 4800,
+  "matched_rows": 4800,
+  "missing_rows": 0,
+  "extra_rows": 0,
+  "compared_existing_columns": 47,
+  "new_columns": [
+    "policy",
+    "fragmentation_mean",
+    "lambda2_ctrl_mean",
+    "lambda2_ctrl_min",
+    "lambda2_ctrl_final",
+    "lambda2_post_mean",
+    "lambda2_per_alive_mean",
+    "lambda2_ctrl_n_steps",
+    "eigengap_mean",
+    "eigengap_min",
+    "eigengap_p01",
+    "lambda2_low_population_steps",
+    "lambda2_degenerate_steps"
+  ],
+  "mismatches_count_capped": 0,
+  "mismatches_first": [],
+  "passed": true,
+  "output_csv": "data/relay_sweep_reinstrumented_v15.csv"
+}

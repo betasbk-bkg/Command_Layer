@@ -1,0 +1,6 @@
+{
+  "webots_tests": 14,
+  "webots_relay_tests": 10,
+  "matched_stability_rows": 512,
+  "matched_direction_match_rate": 0.751953125
+}

@@ -1,0 +1,150 @@
+{
+  "protocol": "E0_environment_replay_control",
+  "created_utc": "2026-08-09T07:13:05.715236+00:00",
+  "root": ".",
+  "archive_csv": "data/relay_sweep_runs.csv",
+  "replay_csv": "src/theory_outputs/relay_sweep_runs.csv",
+  "key_columns": [
+    "team",
+    "map_mode",
+    "command_mode",
+    "stress",
+    "mission_profile",
+    "seed"
+  ],
+  "runs": 120,
+  "expected_runs": 120,
+  "matched_rows": 120,
+  "exact_matches": 120,
+  "missing_in_archive": 0,
+  "compared_columns": [
+    "seed",
+    "team",
+    "map_mode",
+    "command_mode",
+    "stress",
+    "stress_family",
+    "mission_profile",
+    "mission_success",
+    "success_time",
+    "first_threshold_time",
+    "strict_success",
+    "strict_success_time",
+    "alive_final",
+    "reached_final",
+    "n_payload",
+    "payload_reached",
+    "attrition_rate",
+    "early_attrition_rate",
+    "cumulative_exposure",
+    "exposure_per_agent_step",
+    "early_exposure_per_agent_step",
+    "recovery_time",
+    "mean_fragmentation",
+    "max_fragmentation",
+    "mean_consensus",
+    "mean_dispersion",
+    "mean_polarization",
+    "command_reversal_rate",
+    "early_mean_consensus",
+    "early_mean_dispersion",
+    "early_reversal_rate",
+    "early_map_mse",
+    "false_safe_rate",
+    "false_danger_rate",
+    "mean_effective_map_delay",
+    "collapse_time",
+    "failure_label",
+    "n_agents",
+    "reached_fraction",
+    "alive_fraction",
+    "payload_fraction",
+    "time_efficiency",
+    "exposure_safety",
+    "recovery_safety",
+    "operational_score",
+    "safe_delivery_success",
+    "degraded_outcome"
+  ],
+  "n_compared_columns": 47,
+  "mismatches_count_capped": 0,
+  "mismatches_first": [],
+  "passed": true,
+  "python": "3.14.0 (tags/v3.14.0:ebf955d, Oct  7 2025, 10:15:03) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "processor": "AMD64 Family 23 Model 8 Stepping 2, AuthenticAMD",
+  "numpy": "2.4.4",
+  "blas_lapack": {
+    "Compilers": {
+      "c": {
+        "name": "msvc",
+        "linker": "link",
+        "version": "19.44.35225",
+        "commands": "cl"
+      },
+      "cython": {
+        "name": "cython",
+        "linker": "cython",
+        "version": "3.2.4",
+        "commands": "cython"
+      },
+      "c++": {
+        "name": "msvc",
+        "linker": "link",
+        "version": "19.44.35225",
+        "commands": "cl"
+      }
+    },
+    "Machine Information": {
+      "host": {
+        "cpu": "x86_64",
+        "family": "x86_64",
+        "endian": "little",
+        "system": "windows"
+      },
+      "build": {
+        "cpu": "x86_64",
+        "family": "x86_64",
+        "endian": "little",
+        "system": "windows"
+      }
+    },
+    "Build Dependencies": {
+      "blas": {
+        "name": "scipy-openblas",
+        "found": true,
+        "version": "0.3.31.188.0",
+        "detection method": "pkgconfig",
+        "include directory": "C:/Users/runneradmin/AppData/Local/Temp/cibw-run-ucojyb64/cp314-win_amd64/build/venv/Lib/site-packages/scipy_openblas64/include",
+        "lib directory": "C:/Users/runneradmin/AppData/Local/Temp/cibw-run-ucojyb64/cp314-win_amd64/build/venv/Lib/site-packages/scipy_openblas64/lib",
+        "openblas configuration": "OpenBLAS 0.3.31.188.0  USE64BITINT DYNAMIC_ARCH NO_AFFINITY Haswell MAX_THREADS=24",
+        "pc file directory": "D:/a/numpy-release/numpy-release/.openblas"
+      },
+      "lapack": {
+        "name": "scipy-openblas",
+        "found": true,
+        "version": "0.3.31.188.0",
+        "detection method": "pkgconfig",
+        "include directory": "C:/Users/runneradmin/AppData/Local/Temp/cibw-run-ucojyb64/cp314-win_amd64/build/venv/Lib/site-packages/scipy_openblas64/include",
+        "lib directory": "C:/Users/runneradmin/AppData/Local/Temp/cibw-run-ucojyb64/cp314-win_amd64/build/venv/Lib/site-packages/scipy_openblas64/lib",
+        "openblas configuration": "OpenBLAS 0.3.31.188.0  USE64BITINT DYNAMIC_ARCH NO_AFFINITY Haswell MAX_THREADS=24",
+        "pc file directory": "D:/a/numpy-release/numpy-release/.openblas"
+      }
+    },
+    "Python Information": {
+      "path": "C:/Users/runneradmin/AppData/Local/Temp/build-env-1f6ndr68/Scripts/python.exe",
+      "version": "3.14"
+    },
+    "SIMD Extensions": {
+      "baseline": [
+        "X86_V2"
+      ],
+      "found": [
+        "X86_V3"
+      ]
+    }
+  },
+  "source_sha256": {
+    "src/swarm_pilot_experiment.py": "2de12159f6c44d5bcc49d18d8422f023b42aab95873159aef30abc265ec4e072"
+  }
+}

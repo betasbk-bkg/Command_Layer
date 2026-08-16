@@ -1,0 +1,83 @@
+{
+  "output_path": "revision_outputs/webots_movie_no_relay_hetero_autonomous_severe_rep3_runs.csv",
+  "trials": [
+    {
+      "team": "no_relay_hetero",
+      "command_mode": "autonomous",
+      "stress": "degraded",
+      "seed": 2084759348
+    },
+    {
+      "team": "no_relay_hetero",
+      "command_mode": "autonomous",
+      "stress": "degraded",
+      "seed": 2101536967
+    },
+    {
+      "team": "no_relay_hetero",
+      "command_mode": "autonomous",
+      "stress": "degraded",
+      "seed": 2118314586
+    },
+    {
+      "team": "no_relay_hetero",
+      "command_mode": "autonomous",
+      "stress": "degraded",
+      "seed": 2135092205
+    },
+    {
+      "team": "no_relay_hetero",
+      "command_mode": "autonomous",
+      "stress": "degraded",
+      "seed": 2017648872
+    },
+    {
+      "team": "no_relay_hetero",
+      "command_mode": "autonomous",
+      "stress": "degraded",
+      "seed": 2034426491
+    },
+    {
+      "team": "no_relay_hetero",
+      "command_mode": "autonomous",
+      "stress": "degraded",
+      "seed": 2051204110
+    },
+    {
+      "team": "no_relay_hetero",
+      "command_mode": "autonomous",
+      "stress": "degraded",
+      "seed": 2067981729
+    },
+    {
+      "team": "no_relay_hetero",
+      "command_mode": "autonomous",
+      "stress": "severe",
+      "seed": 984692782
+    },
+    {
+      "team": "no_relay_hetero",
+      "command_mode": "autonomous",
+      "stress": "severe",
+      "seed": 1001470401
+    },
+    {
+      "team": "no_relay_hetero",
+      "command_mode": "autonomous",
+      "stress": "severe",
+      "seed": 951137544
+    },
+    {
+      "team": "no_relay_hetero",
+      "command_mode": "autonomous",
+      "stress": "severe",
+      "seed": 967915163
+    }
+  ],
+  "movie_match": {
+    "team": "no_relay_hetero",
+    "command_mode": "autonomous",
+    "stress": "severe",
+    "seed": 967915163
+  }
+}

@@ -1,0 +1,3 @@
+stress,g,c,beta,R,R_ci95_low,R_ci95_high,beta_crit_over_beta,beta_crit_over_beta_ci95_low,beta_crit_over_beta_ci95_high
+degraded,1.923306,0.0325,0.0061343,0.363017,0.113211,0.761332,2.7547,1.3135,8.8331
+severe,3.683214,0.044792,0.0061343,0.50442,0.153376,0.940201,1.9825,1.0636,6.5199

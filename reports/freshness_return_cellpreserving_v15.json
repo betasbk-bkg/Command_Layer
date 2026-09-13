@@ -15,7 +15,7 @@
       "n_resamples_valid": 2000,
       "n_invalid_denominator": 0,
       "n_resamples_R_below_1": 1992,
-      "beta_crit_over_beta": 3.7547
+      "beta_crit_over_beta": 2.7547
     },
     "severe": {
       "g": 3.683214,
@@ -27,7 +27,7 @@
       "n_resamples_valid": 2000,
       "n_invalid_denominator": 0,
       "n_resamples_R_below_1": 1966,
-      "beta_crit_over_beta": 2.9825
+      "beta_crit_over_beta": 1.9825
     }
   }
 }

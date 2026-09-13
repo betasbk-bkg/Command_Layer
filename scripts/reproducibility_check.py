@@ -118,7 +118,16 @@ def run_checks(root: Path) -> dict[str, Any]:
         "reports/s1_production_merge_report.json",
         "reports/s1_lambda2_contrasts.csv",
         "reports/s1_lambda2_summary.json",
-        "reports/revision_result_brief_v15.md",
+        "reports/threshold_sensitivity_grid.json",
+        "reports/threshold_sensitivity_grid.csv",
+        "reports/direction_consistency.json",
+        "reports/direction_consistency.csv",
+        "reports/webots_power_mde.json",
+        "reports/webots_power_mde.csv",
+        "reports/mission_sensitivity_beta_threshold_v16.json",
+        "reports/mission_sensitivity_beta_threshold_v16.csv",
+        "reports/analysis_summary_v16.md",
+        "reports/execution_summary_v15.md",
         "reports/webots_movie_pixel_qa.json",
         "revision_outputs/webots_timing_log.csv",
         "revision_outputs/webots_movie_selection.json",
@@ -126,6 +135,10 @@ def run_checks(root: Path) -> dict[str, Any]:
         "revision_outputs/webots_movie_relay_rich_autonomous_severe_rep3.mp4",
         "revision_outputs/webots_movie_side_by_side_tradeoff.mp4",
         "scripts/analyze_relay_frontier_v15.py",
+        "scripts/threshold_sensitivity_v16.py",
+        "scripts/direction_consistency_v16.py",
+        "scripts/webots_power_mde_v16.py",
+        "scripts/mission_sensitivity_v16.py",
         "scripts/build_webots_comparison_movie.py",
         "scripts/check_webots_movie_pixels.py",
         "webots_validation/run_webots_movie_trial.py",
@@ -157,6 +170,12 @@ def run_checks(root: Path) -> dict[str, Any]:
     freshness_v15 = json.loads((root / "reports" / "freshness_return_cellpreserving_v15.json").read_text(encoding="utf-8"))
     track_e = json.loads((root / "reports" / "trackE_selection_frequency_final.json").read_text(encoding="utf-8"))
     layer1 = json.loads((root / "reports" / "layer1_slope_cellpreserving.json").read_text(encoding="utf-8"))
+    threshold_sensitivity = json.loads((root / "reports" / "threshold_sensitivity_grid.json").read_text(encoding="utf-8"))
+    direction_consistency = json.loads((root / "reports" / "direction_consistency.json").read_text(encoding="utf-8"))
+    webots_power = json.loads((root / "reports" / "webots_power_mde.json").read_text(encoding="utf-8"))
+    mission_sensitivity = json.loads(
+        (root / "reports" / "mission_sensitivity_beta_threshold_v16.json").read_text(encoding="utf-8")
+    )
     movie_selection = json.loads((root / "revision_outputs" / "webots_movie_selection.json").read_text(encoding="utf-8"))
     movie_pixel_report = json.loads((root / "reports" / "webots_movie_pixel_qa.json").read_text(encoding="utf-8"))
 
@@ -341,6 +360,87 @@ def run_checks(root: Path) -> dict[str, Any]:
                     expected[metric],
                 )
             )
+        add_value_check(
+            checks,
+            f"freshness_v16:beta_crit_over_beta_is_one_over_R:{stress}",
+            expected["beta_crit_over_beta"],
+            1.0 / expected["R"],
+            tolerance=5e-4,
+        )
+
+    mission_expected = {
+        "degraded": {
+            "beta_crit_over_beta": 2.7547,
+            "beta_crit_over_beta_ci95_low": 1.3135,
+            "beta_crit_over_beta_ci95_high": 8.8331,
+        },
+        "severe": {
+            "beta_crit_over_beta": 1.9825,
+            "beta_crit_over_beta_ci95_low": 1.0636,
+            "beta_crit_over_beta_ci95_high": 6.5199,
+        },
+    }
+    mission_rows = {row["stress"]: row for row in mission_sensitivity["rows"]}
+    for stress, expectations in mission_expected.items():
+        for metric, expected in expectations.items():
+            add_value_check(checks, f"mission_sensitivity:{stress}:{metric}", mission_rows[stress][metric], expected)
+
+    threshold_expected = {
+        ("degraded", "reference_E_0p150_Trec_10", "weight_k_le_1"): 0.9831,
+        ("degraded", "plausible_region", "min_weight_k_le_1", "weight_k_le_1"): 0.9760,
+        ("degraded", "entire_grid", "min_weight_k_le_1", "weight_k_le_1"): 0.4523,
+        ("degraded", "entire_grid", "max_weight_k_ge_3", "weight_k_ge_3"): 0.0170,
+        ("degraded", "boundary_region_Trec_le_8", "max_weight_k2", "weight_k2"): 0.5460,
+        ("severe", "reference_E_0p150_Trec_10", "weight_k_le_1"): 0.9990,
+        ("severe", "plausible_region", "min_weight_k_le_1", "weight_k_le_1"): 0.9792,
+        ("severe", "entire_grid", "min_weight_k_le_1", "weight_k_le_1"): 0.9100,
+        ("severe", "entire_grid", "max_weight_k_ge_3", "weight_k_ge_3"): 0.0032,
+        ("severe", "boundary_region_Trec_le_8", "max_weight_k2", "weight_k2"): 0.0900,
+    }
+    for key, expected in threshold_expected.items():
+        stress = key[0]
+        if len(key) == 3:
+            observed = threshold_sensitivity["summary"][stress][key[1]][key[2]]
+            name = f"threshold_sensitivity:{stress}:{key[1]}:{key[2]}"
+        else:
+            observed = threshold_sensitivity["summary"][stress][key[1]][key[2]][key[3]]
+            name = f"threshold_sensitivity:{stress}:{key[1]}:{key[2]}:{key[3]}"
+        add_value_check(checks, name, observed, expected)
+
+    checks.append(
+        Check(
+            "direction_consistency:sign_cells",
+            int(direction_consistency["summary"]["sign_consistent_cells"]) == 24
+            and int(direction_consistency["summary"]["total_cells"]) == 24,
+            direction_consistency["summary"],
+            "24/24 sign-consistent endpoint cells",
+        )
+    )
+    direction_expected = {
+        ("degraded", "fisher_p"): 0.000029347,
+        ("degraded", "stouffer_p"): 0.0000535901,
+        ("severe", "fisher_p"): 0.0000000051,
+        ("severe", "stouffer_p"): 0.0000000019,
+    }
+    for (stress, metric), expected in direction_expected.items():
+        observed = direction_consistency["summary"]["safe_delivery_combined_tests"][stress][metric]
+        add_value_check(checks, f"direction_consistency:{stress}:{metric}", observed, expected, tolerance=5e-8)
+
+    webots_power_rows = {row["stress"]: row for row in webots_power["rows"]}
+    webots_power_expected = {
+        ("degraded", "n_per_group"): 24,
+        ("degraded", "mde_two_sided"): 0.3825,
+        ("degraded", "posthoc_power_two_sided"): 0.6678,
+        ("severe", "n_per_group"): 24,
+        ("severe", "mde_two_sided"): 0.3890,
+        ("severe", "posthoc_power_two_sided"): 1.0000,
+    }
+    for (stress, metric), expected in webots_power_expected.items():
+        observed = webots_power_rows[stress][metric]
+        if metric == "n_per_group":
+            checks.append(Check(f"webots_power:{stress}:{metric}", int(observed) == expected, observed, expected))
+        else:
+            add_value_check(checks, f"webots_power:{stress}:{metric}", observed, expected)
     checks.append(
         Check(
             "webots_movie:all_usable",

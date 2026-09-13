@@ -593,9 +593,9 @@ This extension adds two validation layers: an independent grid-world navigation 
 
 ## Interpretation
 
-- If a grid-world command policy aligns with the continuous simulator, the command-layer claim is no longer tied to one kinematic toy model. If ungated crowd control fails, treat it as a boundary condition and emphasize risk-gated command layers.
+- Agreement between the grid-world command policy and the continuous simulator indicates that the command-layer effect is not specific to one kinematic abstraction; disagreement identifies a boundary condition for ungated crowd control.
 - If relay-rich still reduces delay while harming safety/attrition, the relay over-allocation claim becomes a robotics allocation trade-off rather than an artifact of the original role parameters.
-- Robustness sign rates below 0.70 should be treated as conditional evidence, not a main claim.
+- Robustness sign rates below 0.70 indicate conditional rather than stable sign agreement.
 """
     (OUT / "robotics_extension_report.md").write_text(report, encoding="utf-8")
 
@@ -610,24 +610,24 @@ The continuous simulator is used as a controlled testbed for a robotics-relevant
 1. Independent environment replication: continuous 2D model plus grid-world navigation.
 2. Parameter robustness: command noise, packet loss, delay, and dropout are varied around degraded/severe regimes.
 3. Role-allocation sweep: relay count is varied while payload/scout structure is held comparable.
-4. Conservative claims: relay-rich harm is claimed; exact one-relay optimality is not.
+4. Claim scope: the relay-rich cost is reported; exact one-relay optimality is not.
 
-## What Can Be Claimed
+## Scope of the Reported Effects
 
-- Command aggregation improves or preserves operational resilience across controlled continuous regimes; grid-world results should be used to distinguish ungated crowd control from risk-gated command layers.
+- Command aggregation improves or preserves operational resilience across the controlled continuous regimes tested; the grid-world panel separates ungated crowd control from risk-gated command layers.
 - Relay-rich allocation reliably lowers effective delay but can reduce safe delivery through role opportunity cost and attrition.
-- Diagnostic signals are useful as auxiliary monitoring, not as the central robotics contribution.
+- Diagnostic signals function as auxiliary monitoring rather than as a primary result.
 
 ## Limitations
 
 - No hardware or ROS/Gazebo validation.
 - No real operator input.
 - Grid-world is an independent abstraction, not a full physics simulator.
-- Operational-score weights must remain frozen and justified.
+- Operational-score weights are fixed before analysis and are reported in full.
 
 ## Interpretation
 
-The strongest interpretation is an autonomous-systems resilience and multi-robot design trade-off result, not a pure control-theory or hardware deployment result.
+The panel supports a multi-robot design trade-off result under the stated abstractions; it is not a control-theoretic or hardware-deployment result.
 """
     (OUT / "transfer_robustness_summary.md").write_text(blueprint, encoding="utf-8")
 

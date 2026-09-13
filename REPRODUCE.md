@@ -27,6 +27,7 @@ The checker verifies:
 - diagnostic AUROC values;
 - v1.5 S1 comparison-policy outputs;
 - v1.5 relay-frontier artifacts recomputed from raw CSV files;
+- v1.6 threshold-sensitivity, direction-consistency, Webots power/MDE, and mission-sensitivity outputs;
 - Webots supplementary movie usability, including pixel-level nonblack and scene-contrast checks for the individual and side-by-side movies.
 
 ## Full Simulation Notes
@@ -57,3 +58,23 @@ For the freshness-return artifact only, the compatibility command is:
 ```powershell
 python scripts/analysis_freshness_return.py data
 ```
+
+## Sensitivity and Consistency Analyses
+
+Run:
+
+```powershell
+python scripts/threshold_sensitivity_v16.py --data data --reports reports
+python scripts/direction_consistency_v16.py --root . --reports reports
+python scripts/webots_power_mde_v16.py --data data --reports reports
+python scripts/mission_sensitivity_v16.py --reports reports
+```
+
+These regenerate:
+
+- `reports/threshold_sensitivity_grid.json`
+- `reports/direction_consistency.json`
+- `reports/webots_power_mde.json`
+- `reports/mission_sensitivity_beta_threshold_v16.json`
+
+The threshold analysis intentionally recomputes safe delivery using `alive_final == n_agents` rather than a floating-point attrition comparison at the one-loss boundary.

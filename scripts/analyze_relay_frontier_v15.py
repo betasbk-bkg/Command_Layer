@@ -288,7 +288,7 @@ def compute_freshness(data: Path, *, b: int = DEFAULT_B) -> dict[str, Any]:
             "n_resamples_valid": int(len(boot)),
             "n_invalid_denominator": int(spec["invalid"]),
             "n_resamples_R_below_1": int(np.sum(boot < 1.0)),
-            "beta_crit_over_beta": round_float(1.0 + c_point / (g_point * beta_point), 4),
+            "beta_crit_over_beta": round_float(c_point / (g_point * beta_point), 4),
         }
     return {
         "statistic": "R = g*beta/c",

@@ -199,26 +199,26 @@ This is the strongest Webots result: relay-rich allocation sharply reduces effec
 
 The Webots command result is conditional. It supports a modest degraded-regime command-layer benefit, especially for operational score, but it does not justify an unconditional command-layer superiority claim.
 
-## Interpretation Rules
+## Reading the Panel
 
-- If relay-rich reduces effective delay but safe delivery, attrition, or degraded outcome worsens, this supports the latency-safety trade-off in a physics-based simulator.
-- If command aggregation is positive only in one stress regime, interpret it as stress-dependent rather than universal.
-- If command aggregation is weak in Webots, treat the result as a transfer boundary for command-layer effects.
+- Relay-rich allocation reducing effective delay while safe delivery, attrition, or degraded outcome worsens corresponds to the latency-safety trade-off in a physics-based simulator.
+- Command aggregation that is positive in only one stress regime is stress-dependent rather than general.
+- Weak command aggregation in Webots marks a transfer boundary for command-layer effects.
 
 ## Cross-Environment Interpretation
 
 This Webots panel supports the cross-environment latency-safety trade-off: continuous simulation, relay sweep, grid-world severe transfer, and Webots physics all show that additional relay capacity can reduce delay without guaranteeing safer task completion.
 
-The command-layer claim should remain secondary and environment-dependent. Webots does not overturn the grid-world boundary condition; instead it supports a careful phrasing: command aggregation can improve operational performance in selected continuous/physics regimes, but its safe-delivery benefit is not universal.
+The command-layer effect is secondary and environment-dependent. The Webots panel does not overturn the grid-world boundary condition: command aggregation improves operational performance in selected continuous and physics regimes, while its safe-delivery benefit is not general.
 """
     (OUT / "webots_validation_report.md").write_text(report, encoding="utf-8")
     addendum = f"""# Webots Validation Addendum
 
 ## Summary
 
-The Webots layer provides a physics-based validation panel for the relay over-allocation trade-off. It should not be used as proof that command aggregation is universally beneficial.
+The Webots layer provides a physics-based validation panel for the relay over-allocation trade-off. It does not establish a general command-aggregation benefit.
 
-## Strongest Webots-Supported Claim
+## Principal Webots Result
 
 Relay-rich allocation reduces effective delay but worsens safety-aware outcomes.
 
@@ -230,13 +230,13 @@ Relay-rich allocation reduces effective delay but worsens safety-aware outcomes.
 
 ## Command-Layer Interpretation
 
-Command aggregation is not the main Webots claim.
+Command aggregation is a secondary result in this panel.
 
 - Degraded crowd-vector safe-delivery delta: {contrast_line("degraded", "crowd_vector_minus_auto", "safe_delivery_success")}
 - Degraded consensus-gated operational-score delta: {contrast_line("degraded", "consensus_gated_minus_auto", "operational_score")}
 - Severe safe-delivery deltas are weak and confidence intervals cross zero.
 
-Recommended phrasing: command-layer effects are environment-dependent and stress-dependent; relay over-allocation produces the robust robotics trade-off.
+Summary: command-layer effects are environment-dependent and stress-dependent, whereas the relay over-allocation trade-off replicates across the tested panels.
 
 ## Evidence Layer
 

@@ -354,7 +354,7 @@ def write_report(runs: pd.DataFrame, summary: pd.DataFrame, contrasts: pd.DataFr
         "- If scout-matched relay-rich variants still reduce delay while harming severe safe delivery, the result is harder to dismiss as a missing-scout artifact.",
         "- If standardized relay dynamics weaken but do not reverse the trade-off, the mechanism is partly embodied-role cost but not merely a slow-relay artifact.",
         "- If alternative operational-score weights mostly keep relay-rich deltas negative, the relay conclusion does not depend on one arbitrary composite score.",
-        "- These analyses should be treated as auxiliary material unless they are promoted into a revised manuscript with compact reporting.",
+        "- These analyses are auxiliary diagnostics for the relay result and are reported in compact form.",
     ]
     (REPORTS / "additional_diagnostics.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
     payload = {

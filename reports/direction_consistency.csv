@@ -1,0 +1,25 @@
+layer,stress,contrast,metric,expected_direction,delta,ci95_low,ci95_high,one_sided_p,p_source,n_left,n_right,sign_consistent
+continuous,degraded,relay_rich_minus_no_relay_hetero,safe_delivery_success,negative,-0.127083,-0.1875,-0.066667,5e-05,cell-preserving bootstrap,480,480,True
+continuous,degraded,relay_rich_minus_no_relay_hetero,degraded_outcome,positive,0.089583,0.029167,0.147917,0.0019999,cell-preserving bootstrap,480,480,True
+continuous,degraded,relay_rich_minus_no_relay_hetero,attrition_rate,positive,0.017361,0.009896,0.024826,5e-05,cell-preserving bootstrap,480,480,True
+continuous,degraded,relay_rich_minus_no_relay_hetero,mean_effective_map_delay,negative,-7.689147,-7.745533,-7.629532,5e-05,cell-preserving bootstrap,480,480,True
+continuous,severe,relay_rich_minus_no_relay_hetero,safe_delivery_success,negative,-0.15625,-0.216667,-0.095833,5e-05,cell-preserving bootstrap,480,480,True
+continuous,severe,relay_rich_minus_no_relay_hetero,degraded_outcome,positive,0.0875,0.033333,0.141667,0.00044998,cell-preserving bootstrap,480,480,True
+continuous,severe,relay_rich_minus_no_relay_hetero,attrition_rate,positive,0.031424,0.022569,0.040278,5e-05,cell-preserving bootstrap,480,480,True
+continuous,severe,relay_rich_minus_no_relay_hetero,mean_effective_map_delay,negative,-14.76921,-14.926943,-14.607339,5e-05,cell-preserving bootstrap,480,480,True
+grid_world,degraded,relay_rich_minus_no_relay_hetero,safe_delivery_success,negative,-0.010417,-0.034722,0.013889,0.22568872,cell-preserving bootstrap,288,288,True
+grid_world,degraded,relay_rich_minus_no_relay_hetero,degraded_outcome,positive,0.010417,-0.013889,0.034722,0.23708815,cell-preserving bootstrap,288,288,True
+grid_world,degraded,relay_rich_minus_no_relay_hetero,attrition_rate,positive,0.000868,-0.011285,0.013021,0.44852757,cell-preserving bootstrap,288,288,True
+grid_world,degraded,relay_rich_minus_no_relay_hetero,mean_effective_map_delay,negative,-4.0,-4.0,-4.0,5e-05,cell-preserving bootstrap,288,288,True
+grid_world,severe,relay_rich_minus_no_relay_hetero,safe_delivery_success,negative,-0.038194,-0.072917,-0.006944,0.0120494,cell-preserving bootstrap,288,288,True
+grid_world,severe,relay_rich_minus_no_relay_hetero,degraded_outcome,positive,0.038194,0.006944,0.072917,0.00989951,cell-preserving bootstrap,288,288,True
+grid_world,severe,relay_rich_minus_no_relay_hetero,attrition_rate,positive,0.02662,0.0136,0.039641,0.00014999,cell-preserving bootstrap,288,288,True
+grid_world,severe,relay_rich_minus_no_relay_hetero,mean_effective_map_delay,negative,-7.0,-7.0,-7.0,5e-05,cell-preserving bootstrap,288,288,True
+webots,degraded,relay_rich_minus_no_relay_hetero,safe_delivery_success,negative,-0.333333,-0.583333,-0.083333,0.01942403,permutation,24,24,True
+webots,degraded,relay_rich_minus_no_relay_hetero,degraded_outcome,positive,0.333333,0.083333,0.583333,0.01954902,permutation,24,24,True
+webots,degraded,relay_rich_minus_no_relay_hetero,attrition_rate,positive,0.114583,0.083333,0.145833,2.5e-05,permutation,24,24,True
+webots,degraded,relay_rich_minus_no_relay_hetero,mean_effective_map_delay,negative,-12.0,-12.0,-12.0,2.5e-05,permutation,24,24,True
+webots,severe,relay_rich_minus_no_relay_hetero,safe_delivery_success,negative,-0.625,-0.791667,-0.416667,2.5e-05,permutation,24,24,True
+webots,severe,relay_rich_minus_no_relay_hetero,degraded_outcome,positive,0.625,0.416667,0.791667,2.5e-05,permutation,24,24,True
+webots,severe,relay_rich_minus_no_relay_hetero,attrition_rate,positive,0.149306,0.125,0.177083,2.5e-05,permutation,24,24,True
+webots,severe,relay_rich_minus_no_relay_hetero,mean_effective_map_delay,negative,-22.0,-22.0,-22.0,2.5e-05,permutation,24,24,True

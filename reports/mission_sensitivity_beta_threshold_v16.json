@@ -1,0 +1,31 @@
+{
+  "protocol": "mission_sensitivity_v16",
+  "definition": "beta_crit_over_beta is c/(g*beta) = 1/R, the multiplicative increase in the safe-delivery value of one unit of effective-map-delay reduction required for the latency-linked term g*beta to equal the observed allocation-level safe-delivery slope c.",
+  "interpretation": "This is a descriptive mission-sensitivity threshold, not a standalone net-benefit decision rule.",
+  "rows": [
+    {
+      "stress": "degraded",
+      "g": 1.923306,
+      "c": 0.0325,
+      "beta": 0.0061343,
+      "R": 0.363017,
+      "R_ci95_low": 0.113211,
+      "R_ci95_high": 0.761332,
+      "beta_crit_over_beta": 2.7547,
+      "beta_crit_over_beta_ci95_low": 1.3135,
+      "beta_crit_over_beta_ci95_high": 8.8331
+    },
+    {
+      "stress": "severe",
+      "g": 3.683214,
+      "c": 0.044792,
+      "beta": 0.0061343,
+      "R": 0.50442,
+      "R_ci95_low": 0.153376,
+      "R_ci95_high": 0.940201,
+      "beta_crit_over_beta": 1.9825,
+      "beta_crit_over_beta_ci95_low": 1.0636,
+      "beta_crit_over_beta_ci95_high": 6.5199
+    }
+  ]
+}

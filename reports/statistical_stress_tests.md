@@ -53,6 +53,6 @@ The table reports four deterministic seed-fold checks for matched-composition re
 
 ## Interpretation
 
-- Webots relay safe-delivery, degraded-outcome, attrition, and delay effects should survive small-sample scrutiny if permutation p-values are low.
-- Command-layer Webots effects should remain secondary if permutation evidence is weaker.
+- Low permutation p-values for the Webots relay safe-delivery, degraded-outcome, attrition, and delay effects indicate that these effects are not attributable to small-sample variation.
+- Weaker permutation evidence for the command-layer Webots effects places them below the relay effects in strength.
 - Matched-composition sign stability is a check against the possibility that one lucky seed block produced the relay result.

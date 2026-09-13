@@ -1,0 +1,38 @@
+{
+  "protocol": "webots_power_mde_v16",
+  "method": "Normal approximation two-sample proportion power for safe-delivery contrasts. The two-sided calculation is the conservative primary readout; one-sided values are reported only because the manuscript hypothesis specifies the adverse direction.",
+  "rows": [
+    {
+      "stress": "degraded",
+      "metric": "safe_delivery_success",
+      "contrast": "relay_rich_minus_no_relay_hetero",
+      "n_per_group": 24,
+      "control_safe_delivery": 0.583333,
+      "relay_rich_safe_delivery": 0.25,
+      "observed_delta_relay_minus_control": -0.333333,
+      "observed_drop_control_minus_relay": 0.333333,
+      "two_sided_alpha": 0.05,
+      "target_power": 0.8,
+      "mde_two_sided": 0.3825,
+      "posthoc_power_two_sided": 0.6678,
+      "mde_one_sided": 0.3448,
+      "posthoc_power_one_sided": 0.7731
+    },
+    {
+      "stress": "severe",
+      "metric": "safe_delivery_success",
+      "contrast": "relay_rich_minus_no_relay_hetero",
+      "n_per_group": 24,
+      "control_safe_delivery": 0.625,
+      "relay_rich_safe_delivery": 0.0,
+      "observed_delta_relay_minus_control": -0.625,
+      "observed_drop_control_minus_relay": 0.625,
+      "two_sided_alpha": 0.05,
+      "target_power": 0.8,
+      "mde_two_sided": 0.389,
+      "posthoc_power_two_sided": 1.0,
+      "mde_one_sided": 0.3493,
+      "posthoc_power_one_sided": 1.0
+    }
+  ]
+}

@@ -30,6 +30,6 @@ python webots_validation\run_webots_validation.py --webots <path-to-webots.exe> 
 - `theory_outputs/fig_webots_command_safe_delivery.png`
 - `theory_outputs/fig_webots_relay_tradeoff.png`
 
-## Manuscript Role
+## Role of This Layer
 
-Use this layer as physics validation for the relay over-allocation trade-off. The command-layer effect is useful but secondary and should be described as environment-dependent.
+This layer provides physics validation for the relay over-allocation trade-off. The command-layer effect is secondary and environment-dependent.

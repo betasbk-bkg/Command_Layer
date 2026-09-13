@@ -1,0 +1,3 @@
+stress,metric,contrast,n_per_group,control_safe_delivery,relay_rich_safe_delivery,observed_delta_relay_minus_control,observed_drop_control_minus_relay,two_sided_alpha,target_power,mde_two_sided,posthoc_power_two_sided,mde_one_sided,posthoc_power_one_sided
+degraded,safe_delivery_success,relay_rich_minus_no_relay_hetero,24,0.583333,0.25,-0.333333,0.333333,0.05,0.8,0.3825,0.6678,0.3448,0.7731
+severe,safe_delivery_success,relay_rich_minus_no_relay_hetero,24,0.625,0.0,-0.625,0.625,0.05,0.8,0.389,1.0,0.3493,1.0

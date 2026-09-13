@@ -9,6 +9,8 @@ The package contains simulation code, Webots validation files, saved seed-level 
 Archived on Zenodo (all versions): https://doi.org/10.5281/zenodo.21310895
 This concept DOI resolves to the latest published release; this package is the v1.6.1 release package.
 
+License: Creative Commons Attribution 4.0 International (CC BY 4.0); see LICENSE and CITATION.cff.
+
 ## Main Claim Boundary
 
 The package supports a conservative claim:

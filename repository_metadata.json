@@ -15,5 +15,7 @@
   "created_utc": "2026-07-10T17:21:59.809172+00:00",
   "updated_utc": "2026-09-06T00:00:00+00:00",
   "zenodo_version_note": "The manuscript cites the Zenodo concept DOI, which resolves to the latest published release. After publication of v1.6.1, the archive will additionally assign a version-specific DOI.",
-  "repository_artifact": "Command_Layer_repo_v1.6.1.zip"
+  "repository_artifact": "Command_Layer_repo_v1.6.1.zip",
+  "license": "CC-BY-4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/"
 }

@@ -10,6 +10,7 @@ version: "1.6.1"
 doi: "10.5281/zenodo.21310895"
 url: "https://doi.org/10.5281/zenodo.21310895"
 date-released: 2026-09-06
+license: CC-BY-4.0
 abstract: "Research package for a physics-supported simulation study of command-layer resilience and relay over-allocation trade-offs in heterogeneous multi-robot teams under delayed hazard information, including comparison-policy outputs and Webots supplementary movies."
 keywords:
   - "heterogeneous multi-robot systems"

@@ -7,7 +7,7 @@ This repository package supports the associated manuscript:
 The package contains simulation code, Webots validation files, saved seed-level results, comparison-policy outputs, analysis tables, six figure files (five manuscript figures plus one supporting grid-relay figure), citation metadata, validation reports, Webots supplementary movie files, a side-by-side Webots comparison movie, and claim-level reproducibility checks. It does not include the manuscript file.
 
 Archived on Zenodo (all versions): https://doi.org/10.5281/zenodo.21310895
-This concept DOI resolves to the latest published release; this package is the v1.6.1 release package.
+This concept DOI resolves to the latest published release; this package is the v1.6.0 release package.
 
 License: Creative Commons Attribution 4.0 International (CC BY 4.0); see LICENSE and CITATION.cff.
 
@@ -30,9 +30,9 @@ python scripts/analyze_relay_frontier_v15.py --data data --reports reports
 
 Expected outputs are recorded in `reports/layer1_slope_cellpreserving.json`, `reports/trackE_selection_frequency_final.json`, and `reports/freshness_return_cellpreserving_v15.json`.
 
-## Sensitivity and Consistency Analysis Additions (v1.6.1)
+## Sensitivity and Consistency Analysis Additions (v1.6.0)
 
-Version 1.6.1 adds scripted sensitivity and consistency analyses:
+Version 1.6.0 adds scripted sensitivity and consistency analyses:
 
 - `scripts/threshold_sensitivity_v16.py`: regenerates the safe-delivery threshold-sensitivity grid. The reference safe-delivery definition is checked with integer robot survival (`alive_final == n_agents`) rather than floating-point comparison to the one-loss attrition boundary.
 - `scripts/direction_consistency_v16.py`: regenerates cross-layer relay-rich versus no-relay direction-consistency readouts. This analysis tests sign consistency, not cross-layer effect-size equality.
@@ -65,4 +65,4 @@ Primary S1 comparisons exclude `degraded_outcome` because that label is panel-re
 python scripts/reproducibility_check.py --root .
 ```
 
-The pre-release gate used before packaging required at least three independent checker runs; the released package passes all checks (345/345), and the checker reports PASS only when every check succeeds. Gate logs are not included in the public package; users can rerun the checker with the command above.
+The released package passes all checks (345/345), and the checker reports PASS only when every check succeeds. Users can rerun `python scripts/reproducibility_check.py` to regenerate the full check report.

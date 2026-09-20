@@ -19,4 +19,4 @@ The included checker verifies required files, row counts, table-level contrasts,
 
 ## Sensitivity and Consistency Analyses
 
-Version 1.6.0 adds scripted threshold-sensitivity, cross-layer direction-consistency, Webots power/MDE, and mission-sensitivity analyses. These analyses do not add new robot simulations. They use the released relay-sweep, grid-world, and Webots CSV panels to clarify scope, sensitivity, and statistical interpretation.
+Version 1.6.1 adds scripted threshold-sensitivity, cross-layer direction-consistency, Webots power/MDE, and mission-sensitivity analyses. These analyses do not add new robot simulations. They use the released relay-sweep, grid-world, and Webots CSV panels to clarify scope, sensitivity, and statistical interpretation.

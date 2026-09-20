@@ -1,6 +1,5 @@
 {
   "protocol": "S1_lambda2_cell_preserving_analysis",
-  "created_utc": "2026-08-09T07:41:20.992598+00:00",
   "bootstrap_seed": 20260808,
   "bootstrap_resamples": 2000,
   "scheme": "cell-preserving paired bootstrap over map_mode x command_mode for S1-vs-baseline within the same team/stress/seed; independent cell-preserving bootstrap for k=4 S1 vs k=0 baseline rescue tests",

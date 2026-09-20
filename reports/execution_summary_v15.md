@@ -5,7 +5,7 @@
 - Baseline replay passed before the v1.5.0 additions.
 - The v1.4.0 reproducibility checker passed on the prior release: 78/78.
 - Expanded v1.5.0 checker passed after the v1.5.0 additions and movie-pixel QA: 303/303.
-- The current v1.6.0 package-level checker extends this gate with the v1.6 sensitivity and consistency analyses and passes 345/345.
+- The current v1.6.1 package-level checker extends this gate with the v1.6 sensitivity and consistency analyses and passes 345/345.
 - S1 production data: 3,840 unique rows, with 320 smoke rows reused under unchanged M0 code hashes and 3,520 remaining rows run once.
 - S1 paired join against the reinstrumented baseline: 3,840/3,840 matched, missing pairs 0.
 - Webots movies: both sealed replicate-3 target rows were replayed through the original Webots batch-order prefix, recorded only at the target trial, and matched `data/webots_runs.csv` exactly.

@@ -1,6 +1,5 @@
 {
   "protocol": "S1_production_merge",
-  "created_utc": "2026-08-09T07:40:06.334856+00:00",
   "smoke_rows_reused": 320,
   "remaining_rows_run": 3520,
   "combined_rows": 3840,

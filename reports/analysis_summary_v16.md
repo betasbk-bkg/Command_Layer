@@ -1,4 +1,4 @@
-# Sensitivity and Consistency Analysis Summary (v1.6.0)
+# Sensitivity and Consistency Analysis Summary (v1.6.1)
 
 This note summarizes the scripted analyses added in version 1.6. The analyses use saved CSV panels only; no new robot simulations are introduced.
 

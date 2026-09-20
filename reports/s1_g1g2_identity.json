@@ -1,6 +1,5 @@
 {
   "protocol": "G2_no_relay_identity",
-  "created_utc": "2026-08-09T07:32:22.240987+00:00",
   "selection": "no_relay_hetero only; first 20 deterministic relay_sweep seeds per condition, as sealed G2 implementation check",
   "rows": 480,
   "expected_rows": 480,

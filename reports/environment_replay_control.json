@@ -1,6 +1,5 @@
 {
   "protocol": "E0_environment_replay_control",
-  "created_utc": "2026-08-09T07:13:05.715236+00:00",
   "root": ".",
   "archive_csv": "data/relay_sweep_runs.csv",
   "replay_csv": "src/theory_outputs/relay_sweep_runs.csv",

@@ -1,6 +1,5 @@
 {
   "protocol": "webots_movie_pixel_qa",
-  "created_utc": "2026-08-09T14:40:37.808384+00:00",
   "checks": [
     {
       "path": "revision_outputs/webots_movie_no_relay_hetero_autonomous_severe_rep3.mp4",

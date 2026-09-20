@@ -1,6 +1,5 @@
 {
   "protocol": "S1_smoke_diagnostics",
-  "created_utc": "2026-08-09T07:34:36.278399+00:00",
   "n_runs": 320,
   "summary_rows": 8,
   "pairing_missing_vs_reinstrumented_baseline": 0,

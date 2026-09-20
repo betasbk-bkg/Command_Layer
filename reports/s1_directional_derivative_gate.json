@@ -1,6 +1,5 @@
 {
   "protocol": "I2_directional_derivative_smoke",
-  "created_utc": "2026-08-09T07:36:51.472857+00:00",
   "rule": "first 20 eligible step states under sorted smoke design; eligibility requires eigengap > tolerance and positive relay directional derivative",
   "h": 1e-06,
   "eligible_states": 20,

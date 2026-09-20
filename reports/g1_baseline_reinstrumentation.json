@@ -1,6 +1,5 @@
 {
   "protocol": "G1_baseline_reinstrumentation",
-  "created_utc": "2026-08-09T07:20:24.524196+00:00",
   "archive_rows": 4800,
   "reinstrumented_rows": 4800,
   "matched_rows": 4800,

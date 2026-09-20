@@ -1,6 +1,5 @@
 {
     "protocol":  "webots_movie_selection_and_recording",
-    "created_utc":  "2026-08-09T12:18:48.568344+00:00",
     "selection_rule":  "replicate 3 selected by sealed operational-score contrast ranking; safe delivery and attrition were not used for selection",
     "execution_mode":  "original 192-run order prefix replay; movie recording enabled only for the target trial via movie_match",
     "webots_executable":  "Webots R2025a local executable path used during recording; configure locally when rerunning Webots movie capture.",

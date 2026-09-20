@@ -1,6 +1,5 @@
 {
   "protocol": "S1_smoke_implementation_gates",
-  "created_utc": "2026-08-09T07:34:36.278312+00:00",
   "n_runs": 320,
   "expected_runs": 320,
   "selection": "relay-bearing S1 teams; delayed map; autonomous command; degraded/severe; 40 seeds per condition",
